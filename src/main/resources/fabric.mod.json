@@ -1,38 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "expert_weapons",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Expert Weapons and Tools",
+  "description": "Vanilla Weapons and Tools, but harder to obtain!",
   "authors": [
-    "Me!"
+    "Xanthian"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/xanthian/expert_weapons/"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/expert_weapons/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.xanthian.expert_weapons.ExpertWeapons"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
   "depends": {
-    "fabricloader": ">=0.11.3",
-    "fabric": "*",
-    "minecraft": "1.18.x",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "fabricloader": ">=0.12.12"
   }
 }
