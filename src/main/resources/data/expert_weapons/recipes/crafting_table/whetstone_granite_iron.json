@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZZ"
+      ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Z": {
+      "item": "minecraft:granite_slab"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:whetstone_granite_iron"
+  }
+}

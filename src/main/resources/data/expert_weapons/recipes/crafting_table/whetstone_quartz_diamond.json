@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZZ"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "Z": {
+      "item": "minecraft:quartz_slab"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:whetstone_quartz_diamond"
+  }
+}

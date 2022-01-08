@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " Y ",
+    "Z  "
+  ],
+  "key": {
+    "X": {
+      "item": "expert_weapons:sharpened_iron_blade"
+    },
+    "Y": {
+      "item": "expert_weapons:iron_guard"
+    },
+    "Z": {
+      "item": "expert_weapons:sword_hilt"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_sword"
+  }
+}

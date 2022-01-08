@@ -1,0 +1,48 @@
+{
+  "itemGroup.expert_weapons.expert": "Expert Items",
+
+  "item.expert_weapons.sword_hilt": "Weapon Hilt",
+
+  "_comment1": "iron",
+  "item.expert_weapons.iron_guard": "Iron Guard",
+  "item.expert_weapons.dull_iron_blade": "Dull Iron Blade",
+  "item.expert_weapons.sharpened_iron_blade": "Sharpened Iron Blade",
+  "item.expert_weapons.dull_iron_sword": "Dull Iron Sword",
+
+  "_comment2": "golden",
+  "item.expert_weapons.golden_guard": "Golden Guard",
+  "item.expert_weapons.dull_golden_blade": "Dull Golden Blade",
+  "item.expert_weapons.sharpened_golden_blade": "Sharpened Golden Blade",
+  "item.expert_weapons.dull_golden_sword": "Dull Golden Sword",
+
+  "_comment3": "diamond",
+  "item.expert_weapons.diamond_guard": "§bDiamond Guard",
+  "item.expert_weapons.dull_diamond_blade": "Dull Diamond Blade",
+  "item.expert_weapons.sharpened_diamond_blade": "§bSharpened Diamond Blade",
+  "item.expert_weapons.dull_diamond_sword": "Dull Diamond Sword",
+
+  "_comment4": "netherite",
+  "item.expert_weapons.netherite_guard": "Netherite Guard",
+  "item.expert_weapons.dull_netherite_blade": "Dull Netherite Blade",
+  "item.expert_weapons.sharpened_netherite_blade": "Sharpened Netherite Blade",
+  "item.expert_weapons.dull_netherite_sword": "Dull Netherite Sword",
+
+  "_comment5": "whetstones",
+  "item.expert_weapons.whetstone_quartz_diamond": "Quartz Whetstone",
+  "item.expert_weapons.whetstone_granite_iron": "Granite Whetstone",
+  "item.expert_weapons.whetstone_blackstone_netherite": "Blackstone Whetstone",
+  "item.expert_weapons.whetstone_deepslate_golden": "Deepslate Whetstone",
+
+  "_comment6": "tooltips",
+  "tooltip.expert_weapons.granite_whetstone": "Used in the Smithing table for sharpening Dull Iron Blades",
+  "tooltip.expert_weapons.granite_whetstone2": "or to upgrade a Dull Iron Sword",
+  "tooltip.expert_weapons.deepslate_whetstone": "Used in the Smithing table for sharpening Dull Golden Blades",
+  "tooltip.expert_weapons.deepslate_whetstone2": "or to upgrade a Dull Golden Sword",
+  "tooltip.expert_weapons.quartz_whetstone": "Used in the Smithing table for sharpening Dull Diamond Blades",
+  "tooltip.expert_weapons.quartz_whetstone2": "or to upgrade a Dull Diamond Sword",
+  "tooltip.expert_weapons.blackstone_whetstone": "Used in the Smithing table for sharpening Dull Netherite Blades",
+  "tooltip.expert_weapons.blackstone_whetstone2": "or to upgrade a Dull Netherite Sword",
+  "tooltip.expert_weapons.sharpen": "This needs sharpening....",
+  "tooltip.export_weapons.no_enchant": "Cannot be enchanted",
+  "tooltip.export_weapons.no_enchant2": "Upgrade at Smithing table to"
+}

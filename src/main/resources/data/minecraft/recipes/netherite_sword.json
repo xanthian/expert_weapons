@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [ "  X",
+    " Y ",
+    "Z  "],
+  "key": {
+    "X": {
+      "item": "expert_weapons:sharpened_netherite_blade"
+    },
+    "Y": {
+      "item": "expert_weapons:netherite_guard"
+    },
+    "Z": {
+      "item": "expert_weapons:sword_hilt"
+    }
+  },
+  "result": {
+    "item": "minecraft:netherite_sword"
+  }
+}

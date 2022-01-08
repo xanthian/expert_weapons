@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZZ"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Z": {
+      "item": "minecraft:cobbled_deepslate_slab"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:whetstone_deepslate_golden"
+  }
+}

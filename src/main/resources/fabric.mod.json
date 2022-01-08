@@ -18,10 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.xanthian.expert_weapons.ExpertWeapons"
+      "net.xanthian.expert_weapons.Initialize_Mod"
     ]
+
   },
   "depends": {
-    "fabricloader": ">=0.12.12"
+    "fabricloader": ">=0.12.10"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZZ"
+      ],
+  "key": {
+    "X": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "Z": {
+      "item": "minecraft:blackstone_slab"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:whetstone_blackstone_netherite"
+  }
+}

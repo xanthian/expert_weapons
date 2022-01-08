@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "Z": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:netherite_guard"
+  }
+}
