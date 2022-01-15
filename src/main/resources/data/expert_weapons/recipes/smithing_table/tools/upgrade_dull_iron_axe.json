@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:dull_iron_axe"
+  },
+  "addition": {
+    "item": "expert_weapons:whetstone_granite_iron"
+  },
+  "result": {
+    "item": "minecraft:iron_axe"
+  }
+}

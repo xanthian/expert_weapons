@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZZ ",
+    "Z  ",
+    "   "
+      ],
+  "key": {
+    "Z": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:dull_iron_hoe_head"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z"
+      ],
+  "key": {
+    "Z": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:dull_netherite_shovel_head"
+  }
+}

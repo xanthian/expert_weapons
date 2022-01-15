@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z"
+      ],
+  "key": {
+    "Z": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:dull_diamond_shovel_head"
+  }
+}

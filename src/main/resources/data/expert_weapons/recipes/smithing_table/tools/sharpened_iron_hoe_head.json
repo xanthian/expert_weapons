@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:dull_iron_hoe_head"
+  },
+  "addition": {
+    "item": "expert_weapons:whetstone_granite_iron"
+  },
+  "result": {
+    "item": "expert_weapons:sharpened_iron_hoe_head"
+  }
+}

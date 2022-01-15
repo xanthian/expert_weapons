@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    " Z ",
+    "XZX"
+      ],
+  "key": {
+    "Z": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:tool_handle"
+  }
+}

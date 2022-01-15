@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ZZ",
+    "  Z",
+    "  Z"
+      ],
+  "key": {
+    "Z": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:dull_golden_pickaxe_head"
+  }
+}

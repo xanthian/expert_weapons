@@ -66,11 +66,5 @@ public class DullWeapons {
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Initialize_Mod.MOD_ID, name), item);
     }
-
-    //Loaded Log
-    public static void registerModItems() {
-        System.out.println("Registering Dull Weapons for "+ Initialize_Mod.MOD_ID);
-    }
-
-
+     public static void registerModItems() {}
 }

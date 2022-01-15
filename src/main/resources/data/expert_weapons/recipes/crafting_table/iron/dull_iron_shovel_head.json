@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z",
+    "X"
+      ],
+  "key": {
+    "Z": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:dull_iron_shovel_head"
+  }
+}

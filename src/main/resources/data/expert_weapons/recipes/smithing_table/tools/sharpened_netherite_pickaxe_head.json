@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:dull_netherite_pickaxe_head"
+  },
+  "addition": {
+    "item": "expert_weapons:whetstone_blackstone_netherite"
+  },
+  "result": {
+    "item": "expert_weapons:sharpened_netherite_pickaxe_head"
+  }
+}

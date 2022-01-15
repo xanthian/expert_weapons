@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "expert_weapons:item/dull_tools/dull_golden_pickaxe"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z",
+    "Z",
+    "Z"
+      ],
+  "key": {
+    "Z": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:tool_fastener"
+  }
+}

@@ -1,8 +1,8 @@
 package net.xanthian.expert_weapons;
 
 import net.fabricmc.api.ModInitializer;
-import net.xanthian.expert_weapons.item.ExpertWeapons;
-import net.xanthian.expert_weapons.item.DullWeapons;
+
+import net.xanthian.expert_weapons.item.*;
 
 public class Initialize_Mod implements ModInitializer {
 
@@ -12,7 +12,10 @@ public class Initialize_Mod implements ModInitializer {
     public void onInitialize() {
 
         ExpertWeapons.registerModItems();
+        ExpertTools.registerModItems();
         DullWeapons.registerModItems();
+        DullToolParts.registerModItems();
+        DullTools.registerModItems();
 
     }
 }

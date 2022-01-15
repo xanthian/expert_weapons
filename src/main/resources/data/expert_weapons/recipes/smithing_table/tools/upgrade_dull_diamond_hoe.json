@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:dull_diamond_hoe"
+  },
+  "addition": {
+    "item": "expert_weapons:whetstone_quartz_diamond"
+  },
+  "result": {
+    "item": "minecraft:diamond_hoe"
+  }
+}
