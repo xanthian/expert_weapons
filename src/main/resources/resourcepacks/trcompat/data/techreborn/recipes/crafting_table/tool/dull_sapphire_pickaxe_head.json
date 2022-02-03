@@ -1,0 +1,24 @@
+﻿{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+    }
+  ],
+ "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ZZ",
+    "  Z",
+    "  Z"
+      ],
+  "key": {
+    "Z": {
+      "item": "techreborn:sapphire_gem"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:trcompat/dull_sapphire_pickaxe_head"
+  }
+}

@@ -15,20 +15,17 @@ import net.xanthian.expert_weapons.Initialize_Mod;
 
 import java.util.List;
 
-
 public class ExpertWeapons {
-
 
 	//Generic Parts
 	public static final Item SWORD_HILT = registerItem("sword_hilt",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
-
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS)));
 
 	//Iron Parts
 	public static final Item IRON_GUARD = registerItem("iron_guard",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS)));
 	public static final Item DULL_IRON_BLADE = registerItem("dull_iron_blade",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT))
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))
 			{
 				//Tooltip
 				@Override
@@ -37,14 +34,13 @@ public class ExpertWeapons {
 				}
 			});
 	public static final Item SHARPENED_IRON_BLADE = registerItem("sharpened_iron_blade",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
-
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS)));
 
 	//Golden Parts
 	public static final Item GOLDEN_GUARD = registerItem("golden_guard",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS)));
 	public static final Item DULL_GOLDEN_BLADE = registerItem("dull_golden_blade",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT))
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))
 			{
 				//Tooltip
 				@Override
@@ -53,14 +49,13 @@ public class ExpertWeapons {
 				}
 			});
 	public static final Item SHARPENED_GOLDEN_BLADE = registerItem("sharpened_golden_blade",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
-
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS)));
 
 	//Diamond Parts
 	public static final Item DIAMOND_GUARD = registerItem("diamond_guard",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS)));
 	public static final Item DULL_DIAMOND_BLADE = registerItem("dull_diamond_blade",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT))
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))
 			{
 				//Tooltip
 				@Override
@@ -69,14 +64,13 @@ public class ExpertWeapons {
 				}
 			});
 	public static final Item SHARPENED_DIAMOND_BLADE = registerItem("sharpened_diamond_blade",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
-
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS)));
 
 	//Netherite Parts
 	public static final Item NETHERITE_GUARD = registerItem("netherite_guard",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS)));
 		public static final Item DULL_NETHERITE_BLADE = registerItem("dull_netherite_blade",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT))
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))
 			{
 				//Tooltip
 				@Override
@@ -85,12 +79,11 @@ public class ExpertWeapons {
 				}
 			});
 	public static final Item SHARPENED_NETHERITE_BLADE = registerItem("sharpened_netherite_blade",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT)));
-
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS)));
 
 	//Whetstones
 	public static final Item GRANITE_WHETSTONE = registerItem("whetstone_granite_iron",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT))
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))
 			{	//Tooltip
 				@Override
 				public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -100,7 +93,7 @@ public class ExpertWeapons {
 			});
 
 	public static final Item GOLDEN_WHETSTONE = registerItem("whetstone_deepslate_golden",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT))
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))
 			{	//Tooltip
 				@Override
 				public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -110,7 +103,7 @@ public class ExpertWeapons {
 			});
 
 	public static final Item DIAMOND_WHETSTONE = registerItem("whetstone_quartz_diamond",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT))
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))
 			{	//Tooltip
 				@Override
 				public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -119,9 +112,8 @@ public class ExpertWeapons {
 				}
 			});
 
-
 	public static final Item NETHERITE_WHETSTONE = registerItem("whetstone_blackstone_netherite",
-			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT))
+			new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))
 			{	//Tooltip
 				@Override
 				public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -129,7 +121,6 @@ public class ExpertWeapons {
 					tooltip.add(new TranslatableText("tooltip.expert_weapons.blackstone_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
 				}
 			});
-
 
 	//Register Items
 	private static Item registerItem(String name, Item item) {

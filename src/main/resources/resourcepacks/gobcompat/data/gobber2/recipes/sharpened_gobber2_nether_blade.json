@@ -1,0 +1,12 @@
+﻿{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:gobcompat/dull_gobber2_nether_blade"
+  },
+  "addition": {
+    "item": "expert_weapons:whetstone_quartz_diamond"
+  },
+  "result": {
+    "item": "expert_weapons:gobcompat/sharpened_gobber2_nether_blade"
+  }
+}

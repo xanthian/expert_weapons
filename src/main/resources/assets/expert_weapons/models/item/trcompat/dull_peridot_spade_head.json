@@ -1,0 +1,6 @@
+﻿{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "expert_weapons:item/trcompat/dull_peridot_spade_head"
+  }
+}

@@ -22,8 +22,8 @@ public class DullWeapons {
 
     //Dull Weapons
     public static final Item DULL_IRON_SWORD = registerItem("dull_iron_sword",
-            new SwordItem(DullMaterials.DULL_IRON,3,-2.4f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+            new SwordItem(DullMaterials.DULL_IRON,2,-2.4f,
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -32,8 +32,8 @@ public class DullWeapons {
                 }
             });
     public static final Item DULL_GOLDEN_SWORD = registerItem("dull_golden_sword",
-            new SwordItem(DullMaterials.DULL_GOLDEN,1,-2.4f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+            new SwordItem(DullMaterials.DULL_GOLDEN,0,-2.4f,
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -42,8 +42,8 @@ public class DullWeapons {
                 }
             });
     public static final Item DULL_DIAMOND_SWORD = registerItem("dull_diamond_sword",
-            new SwordItem(DullMaterials.DULL_DIAMOND,4,-2.4f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+            new SwordItem(DullMaterials.DULL_DIAMOND,3,-2.4f,
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -52,8 +52,8 @@ public class DullWeapons {
                 }
             });
     public static final Item DULL_NETHERITE_SWORD = registerItem("dull_netherite_sword",
-            new SwordItem(DullMaterials.DULL_NETHERITE,5,-2.4f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+            new SwordItem(DullMaterials.DULL_NETHERITE,4,-2.4f,
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {

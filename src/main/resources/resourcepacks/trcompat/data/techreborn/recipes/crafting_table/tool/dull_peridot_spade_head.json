@@ -1,0 +1,26 @@
+﻿{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+    }
+  ],
+ "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z",
+    "X"
+  ],
+  "key": {
+    "Z": {
+      "item": "techreborn:peridot_gem"
+    },
+    "X": {
+      "item": "techreborn:peridot_small_dust"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:trcompat/dull_peridot_spade_head"
+  }
+}

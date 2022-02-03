@@ -1,0 +1,12 @@
+﻿{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:gobcompat/dull_gobber2_end_sword"
+  },
+  "addition": {
+    "item": "expert_weapons:whetstone_quartz_diamond"
+  },
+  "result": {
+    "item": "gobber2:gobber2_sword_end"
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:trcompat/dull_sapphire_sword"
+  },
+  "addition": {
+    "item": "expert_weapons:trcompat/whetstone_stone_sapphire"
+  },
+  "result": {
+    "item": "techreborn:sapphire_sword"
+  }
+}

@@ -1,0 +1,30 @@
+﻿{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " Y ",
+    "Z  "
+  ],
+  "key": {
+    "X": {
+      "item": "expert_weapons:trcompat/sharpened_ruby_blade"
+    },
+    "Y": {
+      "item": "expert_weapons:trcompat/ruby_guard"
+    },
+    "Z": {
+      "item": "expert_weapons:sword_hilt"
+    }
+  },
+  "result": {
+    "item": "techreborn:ruby_sword"
+  }
+}

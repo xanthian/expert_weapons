@@ -25,7 +25,7 @@ public class DullTools {
     //Dull Iron Tools
     public static final Item DULL_IRON_PICKAXE = registerItem("dull_iron_pickaxe",
             new PickaxeItem(DullMaterials.DULL_IRON,1,-2.8f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -35,7 +35,7 @@ public class DullTools {
             });
     public static final Item DULL_IRON_AXE = registerItem("dull_iron_axe",
             new AxeItem(DullMaterials.DULL_IRON,6,-3.1f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -45,7 +45,7 @@ public class DullTools {
             });
     public static final Item DULL_IRON_SHOVEL = registerItem("dull_iron_shovel",
             new ShovelItem(DullMaterials.DULL_IRON,1.5f,-3f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -55,7 +55,7 @@ public class DullTools {
             });
     public static final Item DULL_IRON_HOE = registerItem("dull_iron_hoe",
             new HoeItem(DullMaterials.DULL_IRON,-2,-1f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -68,7 +68,7 @@ public class DullTools {
     //Dull Golden Weapons
     public static final Item DULL_GOLDEN_PICKAXE = registerItem("dull_golden_pickaxe",
             new PickaxeItem(DullMaterials.DULL_GOLDEN,-1,-2.8f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -78,7 +78,7 @@ public class DullTools {
             });
     public static final Item DULL_GOLDEN_AXE = registerItem("dull_golden_axe",
             new AxeItem(DullMaterials.DULL_GOLDEN,4,-3f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -88,7 +88,7 @@ public class DullTools {
             });
     public static final Item DULL_GOLDEN_SHOVEL = registerItem("dull_golden_shovel",
             new ShovelItem(DullMaterials.DULL_GOLDEN,-0.5f,-3f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -98,7 +98,7 @@ public class DullTools {
             });
     public static final Item DULL_GOLDEN_HOE = registerItem("dull_golden_hoe",
             new HoeItem(DullMaterials.DULL_GOLDEN,-2,-3f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -110,7 +110,7 @@ public class DullTools {
     //Dull Diamond Weapons
     public static final Item DULL_DIAMOND_PICKAXE = registerItem("dull_diamond_pickaxe",
             new PickaxeItem(DullMaterials.DULL_DIAMOND,2,-2.8f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -120,7 +120,7 @@ public class DullTools {
             });
     public static final Item DULL_DIAMOND_AXE = registerItem("dull_diamond_axe",
             new AxeItem(DullMaterials.DULL_DIAMOND,6,-3f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -130,7 +130,7 @@ public class DullTools {
             });
     public static final Item DULL_DIAMOND_SHOVEL = registerItem("dull_diamond_shovel",
             new ShovelItem(DullMaterials.DULL_DIAMOND,2.5f,-3f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -140,7 +140,7 @@ public class DullTools {
             });
     public static final Item DULL_DIAMOND_HOE = registerItem("dull_diamond_hoe",
             new HoeItem(DullMaterials.DULL_DIAMOND,-2,0f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -152,7 +152,7 @@ public class DullTools {
     //Dull Netherite Weapons
     public static final Item DULL_NETHERITE_PICKAXE = registerItem("dull_netherite_pickaxe",
             new PickaxeItem(DullMaterials.DULL_NETHERITE,3,-2.8f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -162,7 +162,7 @@ public class DullTools {
             });
     public static final Item DULL_NETHERITE_AXE = registerItem("dull_netherite_axe",
             new AxeItem(DullMaterials.DULL_NETHERITE,7,-3f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -172,7 +172,7 @@ public class DullTools {
             });
     public static final Item DULL_NETHERITE_SHOVEL = registerItem("dull_netherite_shovel",
             new ShovelItem(DullMaterials.DULL_NETHERITE,3.5f,-3f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -182,7 +182,7 @@ public class DullTools {
             });
     public static final Item DULL_NETHERITE_HOE = registerItem("dull_netherite_hoe",
             new HoeItem(DullMaterials.DULL_NETHERITE,-2,0f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT))	{
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {

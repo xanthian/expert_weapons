@@ -1,0 +1,26 @@
+﻿{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+    }
+  ],
+ "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z",
+    "X"
+  ],
+  "key": {
+    "Z": {
+      "item": "techreborn:bronze_ingot"
+    },
+    "X": {
+      "item": "techreborn:bronze_nugget"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:trcompat/dull_bronze_spade_head"
+  }
+}
