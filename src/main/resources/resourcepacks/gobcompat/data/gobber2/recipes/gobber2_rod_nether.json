@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "ZXZ",
+    " Y "
+      ],
+  "key": {
+    "X": {
+      "item": "gobber2:gobber2_ingot_nether"
+    },
+    "Z": {
+      "item": "minecraft:string"
+    },
+    "Y": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "gobber2:gobber2_rod_nether"
+  }
+}

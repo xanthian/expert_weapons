@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZZ"
+      ],
+  "key": {
+    "X": {
+      "item": "gobber2:gobber2_ingot"
+    },
+    "Z": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:gobber2_whetstone"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZZ"
+  ],
+  "key": {
+    "X": {
+      "item": "gobber2:gobber2_ingot_end"
+    },
+    "Z": {
+      "item": "minecraft:end_stone_brick_slab"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:gobber2_end_whetstone"
+  }
+}

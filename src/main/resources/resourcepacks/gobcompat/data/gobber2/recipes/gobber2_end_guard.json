@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "gobber2:gobber2_ingot_end"
+    },
+    "Z": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:gobcompat/gobber2_end_guard"
+  }
+}

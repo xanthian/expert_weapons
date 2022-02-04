@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "gobber2:gobber2_ingot_nether"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:gobcompat/dull_gobber2_nether_blade"
+  }
+}

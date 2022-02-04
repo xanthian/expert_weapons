@@ -1,12 +1,5 @@
-# Fabric Example Mod
+# Expert Weapons
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
 ![image](https://user-images.githubusercontent.com/7688001/148651842-736168e7-373a-4236-bf7b-8161c72cfb35.png)
 ![image](https://user-images.githubusercontent.com/7688001/148651858-fe80256e-4482-4eca-ba08-2b9d501cef02.png)
 ![image](https://user-images.githubusercontent.com/7688001/148651869-0b67cdd2-74c8-488a-8d3b-4bdae8f698e1.png)
