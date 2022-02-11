@@ -179,8 +179,6 @@
   "item.expert_weapons.trcompat.dull_sapphire_spade_head" : "Dull Sapphire Spade Head",
   "item.expert_weapons.trcompat.dull_sapphire_spade" : "Dull Sapphire Spade",
 
-
-
   "_comment12": "TR Tooltips",
   "tooltip.expert_weapons.whetstone_stone_bronze": "Used in the Smithing table for sharpening Dull Bronze items",
   "tooltip.expert_weapons.whetstone_stone_bronze2": "or to upgrade a Dull Bronze Weapon/Tool",
@@ -189,5 +187,32 @@
   "tooltip.expert_weapons.whetstone_stone_ruby": "Used in the Smithing table for sharpening Dull Ruby items",
   "tooltip.expert_weapons.whetstone_stone_ruby2": "or to upgrade a Dull Ruby Weapon/Tool",
   "tooltip.expert_weapons.whetstone_stone_peridot": "Used in the Smithing table for sharpening Dull Peridot items",
-  "tooltip.expert_weapons.whetstone_stone_peridot2": "or to upgrade a Dull Peridot Weapon/Tool"
+  "tooltip.expert_weapons.whetstone_stone_peridot2": "or to upgrade a Dull Peridot Weapon/Tool",
+
+  "_comment13": "Gobber2 Tools",
+  "item.expert_weapons.gobcompat.gobber2_whetstone": "Gobber Whetstone",
+  "item.expert_weapons.gobcompat.gobber2_end_whetstone": "End Gobber Whetstone",
+  "item.expert_weapons.gobcompat.gobber2_nether_whetstone": "Nether Whetstone",
+
+  "_comment14": "Gobber2 Weapons",
+  "item.expert_weapons.gobcompat.gobber2_guard": "Gobber Sword Guard",
+  "item.expert_weapons.gobcompat.sharpened_gobber2_blade": "Sharpened Gobber Blade",
+  "item.expert_weapons.gobcompat.dull_gobber2_blade": "Dull Gobber Blade",
+  "item.expert_weapons.gobcompat.dull_gobber2_sword": "Dull Gobber Sword",
+  "item.expert_weapons.gobcompat.gobber2_nether_guard": "Nether Sword Guard",
+  "item.expert_weapons.gobcompat.sharpened_gobber2_nether_blade": "Sharpened Nether Blade",
+  "item.expert_weapons.gobcompat.dull_gobber2_nether_blade": "Dull Nether Blade",
+  "item.expert_weapons.gobcompat.dull_gobber2_nether_sword": "Dull Nether Sword",
+  "item.expert_weapons.gobcompat.gobber2_end_guard": "End Sword Guard",
+  "item.expert_weapons.gobcompat.sharpened_gobber2__end_blade": "Sharpened End Blade",
+  "item.expert_weapons.gobcompat.dull_gobber2_end_blade": "Dull End Blade",
+  "item.expert_weapons.gobcompat.dull_gobber2_end_sword": "Dull End Sword",
+
+  "_comment15": "Gobber2 Tooltips",
+  "tooltip.expert_weapons.gobber2_whetstone": "Used in the Smithing table for sharpening Dull Gobber items",
+  "tooltip.expert_weapons.gobber2_whetstone2": "or to upgrade a Dull Gobber Weapon/Tool",
+  "tooltip.expert_weapons.gobber2_end_whetstone": "Used in the Smithing table for sharpening Dull End Gobber items",
+  "tooltip.expert_weapons.gobber2_end_whetstone2": "or to upgrade a Dull End Gobber Weapon/Tool",
+  "tooltip.expert_weapons.gobber2_nether_whetstone": "Used in the Smithing table for sharpening Dull Nether Gobber items",
+  "tooltip.expert_weapons.gobber2_nether_whetstone2": "or to upgrade a Dull Nether Gobber Weapon/Tool"
 }

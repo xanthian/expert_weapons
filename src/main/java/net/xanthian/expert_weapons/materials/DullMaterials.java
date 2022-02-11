@@ -1,5 +1,10 @@
 package net.xanthian.expert_weapons.materials;
 
+import com.kwpugh.gobber2.Gobber2;
+import com.kwpugh.gobber2.Gobber2Client;
+import com.kwpugh.gobber2.init.ItemInit;
+import com.kwpugh.gobber2.lists.GobberArmorMaterial;
+import com.kwpugh.gobber2.lists.GobberToolMaterial;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -25,26 +30,26 @@ public enum DullMaterials implements ToolMaterial {
 
     //Gobber2
     DULL_GOBBER2(3, 1900, 8.0F, 5.0F, 0, () -> {
-        return Ingredient.ofItems(Items.DIAMOND);    }),
+        return Ingredient.ofItems(ItemInit.GOBBER2_INGOT);    }),
     DULL_GOBBER2_END(3, 4000, 8.0F, 5.0F, 0, () -> {
-        return Ingredient.ofItems(Items.DIAMOND);
+        return Ingredient.ofItems(ItemInit.GOBBER2_INGOT_END);
     }),
     DULL_GOBBER2_NETHER(3, 2600, 8.0F, 5.0F, 0, () -> {
-        return Ingredient.ofItems(Items.DIAMOND);
+        return Ingredient.ofItems(ItemInit.GOBBER2_INGOT_NETHER);
     }),
 
     //Tech Reborn
     DULL_BRONZE(2, 187, 7.0F, 2.25f, 0, () -> {
-        return Ingredient.ofItems(TRContent.Ingots.BRONZE.asItem());
+        return Ingredient.ofItems(TRContent.Ingots.BRONZE);
     }),
     DULL_RUBY(2, 375, 6.0F, 1F, 0, () -> {
-        return Ingredient.ofItems(TRContent.Gems.RUBY.asItem());
+        return Ingredient.ofItems(TRContent.Gems.RUBY);
     }),
     DULL_SAPPHIRE(3, 500, 7.0F, 1F, 0, () -> {
-        return Ingredient.ofItems(TRContent.Gems.SAPPHIRE.asItem());
+        return Ingredient.ofItems(TRContent.Gems.SAPPHIRE);
     }),
     DULL_PERIDOT(2, 375, 7.0F, 1F, 0, () -> {
-        return Ingredient.ofItems(TRContent.Gems.PERIDOT.asItem());
+        return Ingredient.ofItems(TRContent.Gems.PERIDOT);
     });
 
     private final int miningLevel;

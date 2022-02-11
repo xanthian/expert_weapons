@@ -4,7 +4,7 @@
     "item": "expert_weapons:gobcompat/dull_gobber2_nether_sword"
   },
   "addition": {
-    "item": "expert_weapons:whetstone_quartz_diamond"
+    "item": "expert_weapons:gobcompat/gobber2_nether_whetstone"
   },
   "result": {
     "item": "gobber2:gobber2_sword_nether"
