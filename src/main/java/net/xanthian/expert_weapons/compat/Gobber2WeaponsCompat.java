@@ -29,7 +29,8 @@ public class Gobber2WeaponsCompat {
         tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
     }
     });
-    public static final Item DULL_GOBBER2_SWORD = registerItem("gobcompat/dull_gobber2_sword", new SwordItem(DullMaterials.DULL_GOBBER2,4,-2f, new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
+    public static final Item DULL_GOBBER2_SWORD = registerItem("gobcompat/dull_gobber2_sword",
+            new SwordItem(DullMaterials.DULL_GOBBER2,1,-3f, new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
         @Override
         public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
             tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
@@ -46,7 +47,8 @@ public class Gobber2WeaponsCompat {
         tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
     }
     });
-    public static final Item DULL_GOBBER2_NETHER_SWORD = registerItem("gobcompat/dull_gobber2_nether_sword", new SwordItem(DullMaterials.DULL_GOBBER2_NETHER,6,-1.8f, new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
+    public static final Item DULL_GOBBER2_NETHER_SWORD = registerItem("gobcompat/dull_gobber2_nether_sword",
+            new SwordItem(DullMaterials.DULL_GOBBER2_NETHER,3,-1.8f, new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
         @Override
         public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
             tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
@@ -63,7 +65,8 @@ public class Gobber2WeaponsCompat {
         tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
     }
     });
-    public static final Item DULL_GOBBER2_END_SWORD = registerItem("gobcompat/dull_gobber2_end_sword", new SwordItem(DullMaterials.DULL_GOBBER2_END,9,-1.6f, new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
+    public static final Item DULL_GOBBER2_END_SWORD = registerItem("gobcompat/dull_gobber2_end_sword",
+            new SwordItem(DullMaterials.DULL_GOBBER2_END,6,-1.6f, new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
         @Override
         public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
             tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));

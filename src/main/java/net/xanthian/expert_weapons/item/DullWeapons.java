@@ -22,7 +22,7 @@ public class DullWeapons {
 
     //Dull Weapons
     public static final Item DULL_IRON_SWORD = registerItem("dull_iron_sword",
-            new SwordItem(DullMaterials.DULL_IRON,2,-2.4f,
+            new SwordItem(DullMaterials.DULL_IRON,3,-2.4f,
                     new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override
@@ -32,7 +32,7 @@ public class DullWeapons {
                 }
             });
     public static final Item DULL_GOLDEN_SWORD = registerItem("dull_golden_sword",
-            new SwordItem(DullMaterials.DULL_GOLDEN,0,-2.4f,
+            new SwordItem(DullMaterials.DULL_GOLDEN,3,-2.4f,
                     new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override
@@ -52,7 +52,7 @@ public class DullWeapons {
                 }
             });
     public static final Item DULL_NETHERITE_SWORD = registerItem("dull_netherite_sword",
-            new SwordItem(DullMaterials.DULL_NETHERITE,4,-2.4f,
+            new SwordItem(DullMaterials.DULL_NETHERITE,3,-2.4f,
                     new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override

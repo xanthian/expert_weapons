@@ -1,10 +1,6 @@
 package net.xanthian.expert_weapons.materials;
 
-import com.kwpugh.gobber2.Gobber2;
-import com.kwpugh.gobber2.Gobber2Client;
 import com.kwpugh.gobber2.init.ItemInit;
-import com.kwpugh.gobber2.lists.GobberArmorMaterial;
-import com.kwpugh.gobber2.lists.GobberToolMaterial;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -15,26 +11,26 @@ import java.util.function.Supplier;
 
 public enum DullMaterials implements ToolMaterial {
 
-    DULL_IRON(3, 125, 8.0F, 2.0F, 0, () -> {
+    DULL_IRON(3, 125, 5.0F, 1.0F, 0, () -> {
         return Ingredient.ofItems(Items.IRON_INGOT);
     }),
-    DULL_GOLDEN(3, 32, 8.0F, 2.0F, 0, () -> {
+    DULL_GOLDEN(3, 32, 11.0F, -1F, 0, () -> {
         return Ingredient.ofItems(Items.GOLD_INGOT);
     }),
-   DULL_DIAMOND(3, 781, 8.0F, 2.0F, 0, () -> {
+   DULL_DIAMOND(3, 781, 7.0F, 2.0F, 0, () -> {
        return Ingredient.ofItems(Items.DIAMOND);
        }),
-    DULL_NETHERITE(3, 1015, 8.0F, 2.0F, 0, () -> {
+    DULL_NETHERITE(4, 1015, 8.0F, 3.0F, 0, () -> {
         return Ingredient.ofItems(Items.NETHERITE_INGOT);
     }),
 
     //Gobber2
-    DULL_GOBBER2(3, 1900, 8.0F, 5.0F, 0, () -> {
+    DULL_GOBBER2(4, 1900, 8.0F, 8.0F, 0, () -> {
         return Ingredient.ofItems(ItemInit.GOBBER2_INGOT);    }),
-    DULL_GOBBER2_END(3, 4000, 8.0F, 5.0F, 0, () -> {
+    DULL_GOBBER2_END(5, 4000, 13.0F, 8.0F, 0, () -> {
         return Ingredient.ofItems(ItemInit.GOBBER2_INGOT_END);
     }),
-    DULL_GOBBER2_NETHER(3, 2600, 8.0F, 5.0F, 0, () -> {
+    DULL_GOBBER2_NETHER(5, 2600, 11.0F, 8.0F, 0, () -> {
         return Ingredient.ofItems(ItemInit.GOBBER2_INGOT_NETHER);
     }),
 
