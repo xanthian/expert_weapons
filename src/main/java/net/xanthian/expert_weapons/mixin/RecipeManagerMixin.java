@@ -13,6 +13,7 @@ import net.xanthian.expert_weapons.Initialize_Mod;
 import net.xanthian.expert_weapons.util.DullRecipes;
 import net.xanthian.expert_weapons.util.Recipes;
 
+import net.xanthian.expert_weapons.util.UpgradeRecipes;
 import org.apache.commons.lang3.tuple.Pair;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -69,6 +70,28 @@ public abstract class RecipeManagerMixin {
                 map.put(new Identifier(Initialize_Mod.MOD_ID, "dull_"+ woodType.getLeft() + "_netherite_pickaxe"), DullRecipes.createDullNetheritePickaxeRecipeJson(woodType.getLeft(), woodType.getRight()));
                 map.put(new Identifier(Initialize_Mod.MOD_ID, "dull_"+ woodType.getLeft() + "_netherite_shovel"), DullRecipes.createDullNetheriteShovelRecipeJson(woodType.getLeft(), woodType.getRight()));
                 map.put(new Identifier(Initialize_Mod.MOD_ID, "dull_"+ woodType.getLeft() + "_netherite_sword"), DullRecipes.createDullNetheriteSwordRecipeJson(woodType.getLeft(), woodType.getRight()));
+                // Upgrades
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_iron_axe"), UpgradeRecipes.createDullIronAxeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_iron_hoe"), UpgradeRecipes.createDullIronHoeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_iron_pickaxe"), UpgradeRecipes.createDullIronPickaxeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_iron_shovel"), UpgradeRecipes.createDullIronShovelUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_iron_sword"), UpgradeRecipes.createDullIronSwordUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_golden_axe"), UpgradeRecipes.createDullGoldenAxeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_golden_hoe"), UpgradeRecipes.createDullGoldenHoeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_golden_pickaxe"), UpgradeRecipes.createDullGoldenPickaxeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_golden_shovel"), UpgradeRecipes.createDullGoldenShovelUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_golden_sword"), UpgradeRecipes.createDullGoldenSwordUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_diamond_axe"), UpgradeRecipes.createDullDiamondAxeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_diamond_hoe"), UpgradeRecipes.createDullDiamondHoeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_diamond_pickaxe"), UpgradeRecipes.createDullDiamondPickaxeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_diamond_shovel"), UpgradeRecipes.createDullDiamondShovelUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_diamond_sword"), UpgradeRecipes.createDullDiamondSwordUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_netherite_axe"), UpgradeRecipes.createDullNetheriteAxeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_netherite_hoe"), UpgradeRecipes.createDullNetheriteHoeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_netherite_pickaxe"), UpgradeRecipes.createDullNetheritePickaxeUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_netherite_shovel"), UpgradeRecipes.createDullNetheriteShovelUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ woodType.getLeft() + "_netherite_sword"), UpgradeRecipes.createDullNetheriteSwordUpgradeRecipeJson(woodType.getLeft(), woodType.getRight()));
+                
             }
         }
     }

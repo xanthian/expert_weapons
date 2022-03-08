@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:structure_void"
+    "item": "expert_weapons:dull_netherite_axe"
   },
   "addition": {
-    "item": "minecraft:structure_void"
+    "item": "expert_weapons:whetstone_blackstone_netherite"
   },
   "result": {
-    "item": "minecraft:structure_void"
+    "item": "minecraft:netherite_axe"
   }
 }

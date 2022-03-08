@@ -19,23 +19,7 @@ import java.util.List;
 public class DullToolParts {
 
     //Dull Iron Tool Parts
-    public static final Item DULL_IRON_PICKAXE_HEAD = registerItem("dull_iron_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                //Tooltip
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
     public static final Item DULL_IRON_AXE_HEAD = registerItem("dull_iron_axe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                //Tooltip
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
-    public static final Item DULL_IRON_SHOVEL_HEAD = registerItem("dull_iron_shovel_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
@@ -51,26 +35,25 @@ public class DullToolParts {
                     tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
-
+    public static final Item DULL_IRON_PICKAXE_HEAD = registerItem("dull_iron_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                //Tooltip
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+    public static final Item DULL_IRON_SHOVEL_HEAD = registerItem("dull_iron_shovel_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                //Tooltip
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
 
     //Dull Golden Tool Parts
-    public static final Item DULL_GOLDEN_PICKAXE_HEAD = registerItem("dull_golden_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                //Tooltip
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
     public static final Item DULL_GOLDEN_AXE_HEAD = registerItem("dull_golden_axe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                //Tooltip
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
-    public static final Item DULL_GOLDEN_SHOVEL_HEAD = registerItem("dull_golden_shovel_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
@@ -86,25 +69,25 @@ public class DullToolParts {
                     tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
+    public static final Item DULL_GOLDEN_PICKAXE_HEAD = registerItem("dull_golden_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                //Tooltip
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+    public static final Item DULL_GOLDEN_SHOVEL_HEAD = registerItem("dull_golden_shovel_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                //Tooltip
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
 
     //Dull Diamond Tool Parts
-    public static final Item DULL_DIAMOND_PICKAXE_HEAD = registerItem("dull_diamond_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                //Tooltip
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
     public static final Item DULL_DIAMOND_AXE_HEAD = registerItem("dull_diamond_axe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                //Tooltip
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
-    public static final Item DULL_DIAMOND_SHOVEL_HEAD = registerItem("dull_diamond_shovel_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
@@ -120,9 +103,7 @@ public class DullToolParts {
                     tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
-
-    //Dull Netherite Tool Parts
-    public static final Item DULL_NETHERITE_PICKAXE_HEAD = registerItem("dull_netherite_pickaxe_head",
+    public static final Item DULL_DIAMOND_PICKAXE_HEAD = registerItem("dull_diamond_pickaxe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
@@ -130,6 +111,16 @@ public class DullToolParts {
                     tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
+    public static final Item DULL_DIAMOND_SHOVEL_HEAD = registerItem("dull_diamond_shovel_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                //Tooltip
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    //Dull Netherite Tool Parts
     public static final Item DULL_NETHERITE_AXE_HEAD = registerItem("dull_netherite_axe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
@@ -138,7 +129,7 @@ public class DullToolParts {
                     tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
-    public static final Item DULL_NETHERITE_SHOVEL_HEAD = registerItem("dull_netherite_shovel_head",
+    public static final Item DULL_NETHERITE_HOE_HEAD = registerItem("dull_netherite_hoe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
@@ -146,7 +137,15 @@ public class DullToolParts {
                     tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
-    public static final Item DULL_NETHERITE_HOE_HEAD = registerItem("dull_netherite_hoe_head",
+    public static final Item DULL_NETHERITE_PICKAXE_HEAD = registerItem("dull_netherite_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                //Tooltip
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+    public static final Item DULL_NETHERITE_SHOVEL_HEAD = registerItem("dull_netherite_shovel_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override

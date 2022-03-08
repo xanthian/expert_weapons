@@ -21,25 +21,6 @@ import java.util.List;
 public class TRToolsCompat {
 
     //Bronze
-    //Pickaxe
-    public static final Item SHARPENED_BRONZE_PICKAXE_HEAD = registerItem("trcompat/sharpened_bronze_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item DULL_BRONZE_PICKAXE_HEAD = registerItem("trcompat/dull_bronze_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
-    public static final Item DULL_BRONZE_PICKAXE = registerItem("trcompat/dull_bronze_pickaxe",
-            new PickaxeItem(DullMaterials.DULL_BRONZE,0,-2.8f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
     //Axe
     public static final Item SHARPENED_BRONZE_AXE_HEAD = registerItem("trcompat/sharpened_bronze_axe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
@@ -78,6 +59,25 @@ public class TRToolsCompat {
                     tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
+    //Pickaxe
+    public static final Item SHARPENED_BRONZE_PICKAXE_HEAD = registerItem("trcompat/sharpened_bronze_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
+    public static final Item DULL_BRONZE_PICKAXE_HEAD = registerItem("trcompat/dull_bronze_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+    public static final Item DULL_BRONZE_PICKAXE = registerItem("trcompat/dull_bronze_pickaxe",
+            new PickaxeItem(DullMaterials.DULL_BRONZE,0,-2.8f,
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
     //Shovel
     public static final Item SHARPENED_BRONZE_SPADE_HEAD = registerItem("trcompat/sharpened_bronze_spade_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
@@ -99,25 +99,6 @@ public class TRToolsCompat {
             });
 
     //Peridot
-    //Pickaxe
-    public static final Item SHARPENED_PERIDOT_PICKAXE_HEAD = registerItem("trcompat/sharpened_peridot_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item DULL_PERIDOT_PICKAXE_HEAD = registerItem("trcompat/dull_peridot_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
-    public static final Item DULL_PERIDOT_PICKAXE = registerItem("trcompat/dull_peridot_pickaxe",
-            new PickaxeItem(DullMaterials.DULL_PERIDOT, 1,-2.8f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
     //Axe
     public static final Item SHARPENED_PERIDOT_AXE_HEAD = registerItem("trcompat/sharpened_peridot_axe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
@@ -156,6 +137,25 @@ public class TRToolsCompat {
                     tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
+    //Pickaxe
+    public static final Item SHARPENED_PERIDOT_PICKAXE_HEAD = registerItem("trcompat/sharpened_peridot_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
+    public static final Item DULL_PERIDOT_PICKAXE_HEAD = registerItem("trcompat/dull_peridot_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+    public static final Item DULL_PERIDOT_PICKAXE = registerItem("trcompat/dull_peridot_pickaxe",
+            new PickaxeItem(DullMaterials.DULL_PERIDOT, 1,-2.8f,
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
     //Shovel
     public static final Item SHARPENED_PERIDOT_SPADE_HEAD = registerItem("trcompat/sharpened_peridot_spade_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
@@ -178,24 +178,6 @@ public class TRToolsCompat {
 
     //Ruby
     //Pickaxe
-    public static final Item SHARPENED_RUBY_PICKAXE_HEAD = registerItem("trcompat/sharpened_ruby_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item DULL_RUBY_PICKAXE_HEAD = registerItem("trcompat/dull_ruby_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
-    public static final Item DULL_RUBY_PICKAXE = registerItem("trcompat/dull_ruby_pickaxe",
-            new PickaxeItem(DullMaterials.DULL_RUBY,1,-2.8f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
     //Axe
     public static final Item SHARPENED_RUBY_AXE_HEAD = registerItem("trcompat/sharpened_ruby_axe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
@@ -234,6 +216,24 @@ public class TRToolsCompat {
                     tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
+    public static final Item SHARPENED_RUBY_PICKAXE_HEAD = registerItem("trcompat/sharpened_ruby_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
+    public static final Item DULL_RUBY_PICKAXE_HEAD = registerItem("trcompat/dull_ruby_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+    public static final Item DULL_RUBY_PICKAXE = registerItem("trcompat/dull_ruby_pickaxe",
+            new PickaxeItem(DullMaterials.DULL_RUBY,1,-2.8f,
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
     //Shovel
     public static final Item SHARPENED_RUBY_SPADE_HEAD = registerItem("trcompat/sharpened_ruby_spade_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
@@ -254,26 +254,7 @@ public class TRToolsCompat {
                 }
             });
     //Sapphire
-    //Pickaxe
-    public static final Item SHARPENED_SAPPHIRE_PICKAXE_HEAD = registerItem("trcompat/sharpened_sapphire_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item DULL_SAPPHIRE_PICKAXE_HEAD = registerItem("trcompat/dull_sapphire_pickaxe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
-    public static final Item DULL_SAPPHIRE_PICKAXE = registerItem("trcompat/dull_sapphire_pickaxe",
-            new PickaxeItem(DullMaterials.DULL_SAPPHIRE,1,-2.8f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
-    //Axe
+      //Axe
     public static final Item SHARPENED_SAPPHIRE_AXE_HEAD = registerItem("trcompat/sharpened_sapphire_axe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
     public static final Item DULL_SAPPHIRE_AXE_HEAD = registerItem("trcompat/dull_sapphire_axe_head",
@@ -304,6 +285,25 @@ public class TRToolsCompat {
             });
     public static final Item DULL_SAPPHIRE_HOE = registerItem("trcompat/dull_sapphire_hoe",
             new PickaxeItem(DullMaterials.DULL_SAPPHIRE,-1,-2.8f,
+                    new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+    //Pickaxe
+    public static final Item SHARPENED_SAPPHIRE_PICKAXE_HEAD = registerItem("trcompat/sharpened_sapphire_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
+    public static final Item DULL_SAPPHIRE_PICKAXE_HEAD = registerItem("trcompat/dull_sapphire_pickaxe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+    public static final Item DULL_SAPPHIRE_PICKAXE = registerItem("trcompat/dull_sapphire_pickaxe",
+            new PickaxeItem(DullMaterials.DULL_SAPPHIRE,1,-2.8f,
                     new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {

@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:air"
+    "item": "expert_weapons:dull_netherite_shovel"
   },
   "addition": {
-    "item": "minecraft:air"
+    "item": "expert_weapons:whetstone_blackstone_netherite"
   },
   "result": {
-    "item": "minecraft:air"
+    "item": "minecraft:netherite_shovel"
   }
 }

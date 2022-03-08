@@ -32,45 +32,45 @@ public class ExpertTools {
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
 
     //IRON Tools
+    public static final Item SHARPENED_IRON_AXE_HEAD = registerItem("sharpened_iron_axe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
+    public static final Item SHARPENED_IRON_HOE_HEAD = registerItem("sharpened_iron_hoe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
     public static final Item SHARPENED_IRON_PICKAXE_HEAD = registerItem("sharpened_iron_pickaxe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
     public static final Item SHARPENED_IRON_SHOVEL_HEAD = registerItem("sharpened_iron_shovel_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item SHARPENED_IRON_HOE_HEAD = registerItem("sharpened_iron_hoe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item SHARPENED_IRON_AXE_HEAD = registerItem("sharpened_iron_axe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    
+
     //GOLDEN Tools
+    public static final Item SHARPENED_GOLDEN_AXE_HEAD = registerItem("sharpened_golden_axe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
+    public static final Item SHARPENED_GOLDEN_HOE_HEAD = registerItem("sharpened_golden_hoe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
     public static final Item SHARPENED_GOLDEN_PICKAXE_HEAD = registerItem("sharpened_golden_pickaxe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
     public static final Item SHARPENED_GOLDEN_SHOVEL_HEAD = registerItem("sharpened_golden_shovel_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item SHARPENED_GOLDEN_HOE_HEAD = registerItem("sharpened_golden_hoe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item SHARPENED_GOLDEN_AXE_HEAD = registerItem("sharpened_golden_axe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
 
     //DIAMOND Tools
+    public static final Item SHARPENED_DIAMOND_AXE_HEAD = registerItem("sharpened_diamond_axe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
+    public static final Item SHARPENED_DIAMOND_HOE_HEAD = registerItem("sharpened_diamond_hoe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
     public static final Item SHARPENED_DIAMOND_PICKAXE_HEAD = registerItem("sharpened_diamond_pickaxe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
     public static final Item SHARPENED_DIAMOND_SHOVEL_HEAD = registerItem("sharpened_diamond_shovel_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item SHARPENED_DIAMOND_HOE_HEAD = registerItem("sharpened_diamond_hoe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item SHARPENED_DIAMOND_AXE_HEAD = registerItem("sharpened_diamond_axe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
 
     //NETHERITE Tools
+    public static final Item SHARPENED_NETHERITE_AXE_HEAD = registerItem("sharpened_netherite_axe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
+    public static final Item SHARPENED_NETHERITE_HOE_HEAD = registerItem("sharpened_netherite_hoe_head",
+            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
     public static final Item SHARPENED_NETHERITE_PICKAXE_HEAD = registerItem("sharpened_netherite_pickaxe_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
     public static final Item SHARPENED_NETHERITE_SHOVEL_HEAD = registerItem("sharpened_netherite_shovel_head",
             new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item SHARPENED_NETHERITE_HOE_HEAD = registerItem("sharpened_netherite_hoe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    public static final Item SHARPENED_NETHERITE_AXE_HEAD = registerItem("sharpened_netherite_axe_head",
-            new Item(new FabricItemSettings().group(ExpertGroup.EXPERT_TOOLS)));
-    
+
     //Register Items
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Initialize_Mod.MOD_ID, name), item);
