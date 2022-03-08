@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "expert_weapons:item/vsascompat/dull_netherite_sword",
+        "layer1": "vsas:item/swords/jungle_hilt"
+    }
+}

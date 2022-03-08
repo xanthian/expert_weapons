@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vsas"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "ZXZ",
+    " Y "
+      ],
+  "key": {
+    "X": {
+      "item": "vsas:sticks/dark_oak_stick"
+    },
+    "Z": {
+      "item": "minecraft:string"
+    },
+    "Y": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:vsascompat/dark_oak_sword_hilt"
+  }
+}

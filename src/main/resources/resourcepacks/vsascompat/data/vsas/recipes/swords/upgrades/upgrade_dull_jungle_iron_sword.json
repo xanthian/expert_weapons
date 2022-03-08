@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:vsascompat/dull_jungle_iron_sword"
+  },
+  "addition": {
+    "item": "expert_weapons:whetstone_granite_iron"
+  },
+  "result": {
+    "item": "vsas:swords/jungle_iron_sword"
+  }
+}

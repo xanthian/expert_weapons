@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:vsascompat/dull_spruce_golden_sword"
+  },
+  "addition": {
+    "item": "expert_weapons:whetstone_deepslate_golden"
+  },
+  "result": {
+    "item": "vsas:swords/spruce_golden_sword"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vsas"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "ZXZ",
+    " Y "
+      ],
+  "key": {
+    "X": {
+      "item": "vsas:sticks/acacia_stick"
+    },
+    "Z": {
+      "item": "minecraft:string"
+    },
+    "Y": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:vsascompat/acacia_sword_hilt"
+  }
+}

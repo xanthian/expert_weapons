@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:structure_void"
+  },
+  "addition": {
+    "item": "minecraft:structure_void"
+  },
+  "result": {
+    "item": "minecraft:structure_void"
+  }
+}

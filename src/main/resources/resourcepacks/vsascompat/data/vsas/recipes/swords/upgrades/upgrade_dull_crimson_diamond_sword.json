@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:vsascompat/dull_crimson_diamond_sword"
+  },
+  "addition": {
+    "item": "expert_weapons:whetstone_quartz_diamond"
+  },
+  "result": {
+    "item": "vsas:swords/crimson_diamond_sword"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vsas"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "ZXZ",
+    " Y "
+      ],
+  "key": {
+    "X": {
+      "item": "vsas:sticks/birch_stick"
+    },
+    "Z": {
+      "item": "minecraft:string"
+    },
+    "Y": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:vsascompat/birch_sword_hilt"
+  }
+}

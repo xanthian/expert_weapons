@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "expert_weapons",
   "version": "${version}",
-
   "name": "Expert Weapons and Tools",
   "description": "Vanilla Weapons and Tools, but harder to obtain!",
   "authors": [
@@ -11,17 +10,13 @@
   "contact": {
     "sources": "https://github.com/xanthian/expert_weapons/"
   },
-
   "license": "CC0-1.0",
   "icon": "assets/expert_weapons/icon.png",
-
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.xanthian.expert_weapons.Initialize_Mod"
-    ]
-
+    "main": ["net.xanthian.expert_weapons.Initialize_Mod"]
   },
+  "mixins": ["expert_weapons.mixins.json"],
   "depends": {
     "fabricloader": ">=0.12.10",
     "fabric": ">=0.46.0",

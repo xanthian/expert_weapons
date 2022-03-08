@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:vsascompat/dull_acacia_golden_sword"
+  },
+  "addition": {
+    "item": "expert_weapons:whetstone_deepslate_golden"
+  },
+  "result": {
+    "item": "vsas:swords/acacia_golden_sword"
+  }
+}
