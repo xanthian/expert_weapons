@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import net.minecraft.item.*;
@@ -23,42 +22,42 @@ public class DullWeapons {
     //Dull Weapons
     public static final Item DULL_IRON_SWORD = registerItem("dull_iron_sword",
             new SwordItem(DullMaterials.DULL_IRON,3,-2.4f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
+                    new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_GOLDEN_SWORD = registerItem("dull_golden_sword",
             new SwordItem(DullMaterials.DULL_GOLDEN,3,-2.4f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
+                    new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DIAMOND_SWORD = registerItem("dull_diamond_sword",
             new SwordItem(DullMaterials.DULL_DIAMOND,3,-2.4f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
+                    new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_NETHERITE_SWORD = registerItem("dull_netherite_sword",
             new SwordItem(DullMaterials.DULL_NETHERITE,3,-2.4f,
-                    new FabricItemSettings().group(ExpertGroup.EXPERT_WEAPONS))	{
+                    new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(new TranslatableText("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 

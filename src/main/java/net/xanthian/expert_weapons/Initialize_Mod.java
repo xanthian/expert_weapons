@@ -2,9 +2,12 @@ package net.xanthian.expert_weapons;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.xanthian.expert_weapons.compat.*;
 import net.xanthian.expert_weapons.item.*;
@@ -20,6 +23,11 @@ public class Initialize_Mod implements ModInitializer {
 
     public static final String MOD_ID = "expert_weapons";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
+    public static final ItemGroup EXPERT_WEAPONS = FabricItemGroupBuilder.build(new Identifier(Initialize_Mod.MOD_ID, "expert_weapons"),
+            () -> new ItemStack(ExpertWeapons.SHARPENED_DIAMOND_BLADE));
+    public static final ItemGroup EXPERT_TOOLS = FabricItemGroupBuilder.build(new Identifier(Initialize_Mod.MOD_ID, "expert_tools"),
+            () -> new ItemStack(ExpertTools.SHARPENED_DIAMOND_AXE_HEAD));
 
     public static final List<Pair<String, String[]>> woodTypes = Arrays.asList(
             Pair.of("acacia", new String[]{"vsas"}),
@@ -39,25 +47,21 @@ public class Initialize_Mod implements ModInitializer {
         DullWeapons.registerModItems();
         DullToolParts.registerModItems();
         DullTools.registerModItems();
+        ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("ewmodcompat"),
+                FabricLoader.getInstance().getModContainer(Initialize_Mod.MOD_ID).orElseThrow(), ResourcePackActivationType.ALWAYS_ENABLED);
 
         if (FabricLoader.getInstance().isModLoaded("gobber2")) {
             Gobber2WeaponsCompat.registerModItems();
-            ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("gobcompat"), FabricLoader.getInstance().getModContainer(Initialize_Mod.MOD_ID).orElseThrow(), ResourcePackActivationType.ALWAYS_ENABLED);
-                LOGGER.info("Gobber 2 detected, amending recipes for Expert Weapons & Tools");
         }
 
         if (FabricLoader.getInstance().isModLoaded("techreborn")) {
             TRWeaponsCompat.registerModItems();
             TRToolsCompat.registerModItems();
-            ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("trcompat"), FabricLoader.getInstance().getModContainer(Initialize_Mod.MOD_ID).orElseThrow(), ResourcePackActivationType.ALWAYS_ENABLED);
-                LOGGER.info("Tech Reborn detected, amending recipes for Expert Weapons & Tools");
         }
 
         if (FabricLoader.getInstance().isModLoaded("vsas")) {
             VsasWeaponsCompat.registerModItems();
             VsasToolsCompat.registerModItems();
-            ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("vsascompat"), FabricLoader.getInstance().getModContainer(Initialize_Mod.MOD_ID).orElseThrow(), ResourcePackActivationType.ALWAYS_ENABLED);
-            LOGGER.info("Variant Sticks & Stuff detected, amending recipes for Expert Weapons & Tools");
         }
     }
 }

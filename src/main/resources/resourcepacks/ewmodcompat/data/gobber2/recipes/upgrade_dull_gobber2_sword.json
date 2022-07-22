@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gobber2"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:gobcompat/dull_gobber2_sword"
+  },
+  "addition": {
+    "item": "expert_weapons:gobcompat/gobber2_whetstone"
+  },
+  "result": {
+    "item": "gobber2:gobber2_sword"
+  }
+}
