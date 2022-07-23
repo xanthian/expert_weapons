@@ -12,7 +12,7 @@
     "item": "expert_weapons:trcompat/dull_ruby_pickaxe"
   },
   "addition": {
-    "item": "expert_weapons:trcompat/whetstone_stone_ruby"
+    "item": "expert_weapons:trcompat/ruby_whetstone"
   },
   "result": {
     "item": "techreborn:ruby_pickaxe"

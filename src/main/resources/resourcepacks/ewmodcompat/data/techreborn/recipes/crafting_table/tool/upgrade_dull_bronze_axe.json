@@ -12,7 +12,7 @@
     "item": "expert_weapons:trcompat/dull_bronze_axe"
   },
   "addition": {
-    "item": "expert_weapons:trcompat/whetstone_stone_bronze"
+    "item": "expert_weapons:trcompat/bronze_whetstone"
   },
   "result": {
     "item": "techreborn:bronze_axe"

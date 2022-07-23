@@ -69,7 +69,7 @@ public class DirtmondsCompat {
 
     //Dull Dirtmond Tools/Weapons
     public static final Item DULL_DIRTMOND_AXE = registerItem("dmcompat/dull_dirtmond_axe",
-            new AxeItem(DullMaterials.DULL_DIRTMOND,5,-3f,
+            new AxeItem(DullMaterials.DULL_DIRTMOND,3,-2.9f,
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
@@ -79,7 +79,7 @@ public class DirtmondsCompat {
                 }
             });
     public static final Item DULL_DIRTMOND_HOE = registerItem("dmcompat/dull_dirtmond_hoe",
-            new HoeItem(DullMaterials.DULL_DIRTMOND,-3,0f,
+            new HoeItem(DullMaterials.DULL_DIRTMOND,-2,-1f,
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
@@ -89,7 +89,7 @@ public class DirtmondsCompat {
                 }
             });
     public static final Item DULL_DIRTMOND_PICKAXE = registerItem("dmcompat/dull_dirtmond_pickaxe",
-            new PickaxeItem(DullMaterials.DULL_DIRTMOND,1,-2.8f,
+            new PickaxeItem(DullMaterials.DULL_DIRTMOND,-1,-2.8f,
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
@@ -99,7 +99,7 @@ public class DirtmondsCompat {
                 }
             });
     public static final Item DULL_DIRTMOND_SHOVEL = registerItem("dmcompat/dull_dirtmond_shovel",
-            new ShovelItem(DullMaterials.DULL_DIRTMOND,1.5f,-3f,
+            new ShovelItem(DullMaterials.DULL_DIRTMOND,-2,-2.9f,
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 //Tooltip
                 @Override
@@ -109,7 +109,7 @@ public class DirtmondsCompat {
                 }
             });
     public static final Item DULL_DIRTMOND_SWORD = registerItem("dmcompat/dull_dirtmond_sword",
-            new SwordItem(DullMaterials.DULL_DIRTMOND,3,-2.4f,
+            new SwordItem(DullMaterials.DULL_DIRTMOND,1,-2.4f,
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
                 //Tooltip
                 @Override

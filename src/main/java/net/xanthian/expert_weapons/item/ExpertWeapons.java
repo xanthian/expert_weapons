@@ -81,43 +81,43 @@ public class ExpertWeapons {
 			new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
 
 	//Whetstones
-	public static final Item GRANITE_WHETSTONE = registerItem("whetstone_granite_iron",
+	public static final Item IRON_WHETSTONE = registerItem("iron_whetstone",
 			new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
 			{	//Tooltip
 				@Override
 				public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-					tooltip.add(Text.translatable("tooltip.expert_weapons.granite_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
-					tooltip.add(Text.translatable("tooltip.expert_weapons.granite_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+					tooltip.add(Text.translatable("tooltip.expert_weapons.iron_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+					tooltip.add(Text.translatable("tooltip.expert_weapons.iron_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
 				}
 			});
 
-	public static final Item GOLDEN_WHETSTONE = registerItem("whetstone_deepslate_golden",
+	public static final Item GOLDEN_WHETSTONE = registerItem("golden_whetstone",
 			new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
 			{	//Tooltip
 				@Override
 				public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-					tooltip.add(Text.translatable("tooltip.expert_weapons.deepslate_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
-					tooltip.add(Text.translatable("tooltip.expert_weapons.deepslate_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+					tooltip.add(Text.translatable("tooltip.expert_weapons.golden_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+					tooltip.add(Text.translatable("tooltip.expert_weapons.golden_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
 				}
 			});
 
-	public static final Item DIAMOND_WHETSTONE = registerItem("whetstone_quartz_diamond",
+	public static final Item DIAMOND_WHETSTONE = registerItem("diamond_whetstone",
 			new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
 			{	//Tooltip
 				@Override
 				public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-					tooltip.add(Text.translatable("tooltip.expert_weapons.quartz_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
-					tooltip.add(Text.translatable("tooltip.expert_weapons.quartz_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+					tooltip.add(Text.translatable("tooltip.expert_weapons.diamond_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+					tooltip.add(Text.translatable("tooltip.expert_weapons.diamond_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
 				}
 			});
 
-	public static final Item NETHERITE_WHETSTONE = registerItem("whetstone_blackstone_netherite",
+	public static final Item NETHERITE_WHETSTONE = registerItem("netherite_whetstone",
 			new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
 			{	//Tooltip
 				@Override
 				public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-					tooltip.add(Text.translatable("tooltip.expert_weapons.blackstone_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
-					tooltip.add(Text.translatable("tooltip.expert_weapons.blackstone_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+					tooltip.add(Text.translatable("tooltip.expert_weapons.netherite_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+					tooltip.add(Text.translatable("tooltip.expert_weapons.netherite_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
 				}
 			});
 

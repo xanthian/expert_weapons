@@ -4,7 +4,7 @@
     "item": "expert_weapons:dull_iron_axe_head"
   },
   "addition": {
-    "item": "expert_weapons:whetstone_granite_iron"
+    "item": "expert_weapons:iron_whetstone"
   },
   "result": {
     "item": "expert_weapons:sharpened_iron_axe_head"

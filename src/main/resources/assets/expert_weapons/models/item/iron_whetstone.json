@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "expert_weapons:item/whetstone_quartz_diamond"
+        "layer0": "expert_weapons:item/iron_whetstone"
     }
 }

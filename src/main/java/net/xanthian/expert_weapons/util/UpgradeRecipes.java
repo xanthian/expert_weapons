@@ -26,7 +26,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_iron_axe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_granite_iron");
+        addition.addProperty("item", "expert_weapons:iron_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":axes/" + material + "_iron_axe");
@@ -52,7 +52,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_iron_sword");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_granite_iron");
+        addition.addProperty("item", "expert_weapons:iron_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":swords/" + material + "_iron_sword");
@@ -78,7 +78,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_iron_pickaxe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_granite_iron");
+        addition.addProperty("item", "expert_weapons:iron_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":pickaxes/" + material + "_iron_pickaxe");
@@ -104,7 +104,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_iron_shovel");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_granite_iron");
+        addition.addProperty("item", "expert_weapons:iron_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":shovels/" + material + "_iron_shovel");
@@ -130,7 +130,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_iron_hoe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_granite_iron");
+        addition.addProperty("item", "expert_weapons:iron_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":hoes/" + material + "_iron_hoe");
@@ -156,7 +156,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_golden_axe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_deepslate_golden");
+        addition.addProperty("item", "expert_weapons:golden_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":axes/" + material + "_golden_axe");
@@ -182,7 +182,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_golden_sword");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_deepslate_golden");
+        addition.addProperty("item", "expert_weapons:golden_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":swords/" + material + "_golden_sword");
@@ -208,7 +208,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_golden_pickaxe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_deepslate_golden");
+        addition.addProperty("item", "expert_weapons:golden_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":pickaxes/" + material + "_golden_pickaxe");
@@ -234,7 +234,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_golden_shovel");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_deepslate_golden");
+        addition.addProperty("item", "expert_weapons:golden_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":shovels/" + material + "_golden_shovel");
@@ -260,7 +260,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_golden_hoe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_deepslate_golden");
+        addition.addProperty("item", "expert_weapons:golden_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":hoes/" + material + "_golden_hoe");
@@ -286,7 +286,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_diamond_axe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_quartz_diamond");
+        addition.addProperty("item", "expert_weapons:diamond_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":axes/" + material + "_diamond_axe");
@@ -312,7 +312,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_diamond_sword");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_quartz_diamond");
+        addition.addProperty("item", "expert_weapons:diamond_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":swords/" + material + "_diamond_sword");
@@ -338,7 +338,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_diamond_pickaxe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_quartz_diamond");
+        addition.addProperty("item", "expert_weapons:diamond_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":pickaxes/" + material + "_diamond_pickaxe");
@@ -364,7 +364,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_diamond_shovel");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_quartz_diamond");
+        addition.addProperty("item", "expert_weapons:diamond_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":shovels/" + material + "_diamond_shovel");
@@ -390,7 +390,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_diamond_hoe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_quartz_diamond");
+        addition.addProperty("item", "expert_weapons:diamond_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":hoes/" + material + "_diamond_hoe");
@@ -416,7 +416,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_netherite_axe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_blackstone_netherite");
+        addition.addProperty("item", "expert_weapons:netherite_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":axes/" + material + "_netherite_axe");
@@ -442,7 +442,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_netherite_sword");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_blackstone_netherite");
+        addition.addProperty("item", "expert_weapons:netherite_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":swords/" + material + "_netherite_sword");
@@ -468,7 +468,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_netherite_pickaxe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_blackstone_netherite");
+        addition.addProperty("item", "expert_weapons:netherite_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":pickaxes/" + material + "_netherite_pickaxe");
@@ -494,7 +494,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_netherite_shovel");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_blackstone_netherite");
+        addition.addProperty("item", "expert_weapons:netherite_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":shovels/" + material + "_netherite_shovel");
@@ -520,7 +520,7 @@ public class UpgradeRecipes {
         base.addProperty("item", "expert_weapons:vsascompat/dull_" + material + "_netherite_hoe");
         json.add("base", base);
         JsonObject addition = new JsonObject();
-        addition.addProperty("item", "expert_weapons:whetstone_blackstone_netherite");
+        addition.addProperty("item", "expert_weapons:netherite_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
         result.addProperty("item",MOD_ID + ":hoes/" + material + "_netherite_hoe");

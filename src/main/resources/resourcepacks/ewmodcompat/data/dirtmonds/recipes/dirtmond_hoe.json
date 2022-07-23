@@ -9,20 +9,22 @@
   ],
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "##",
-    "/ ",
-    "/ "
+    "  X",
+    " Y ",
+    "Z  "
   ],
   "key": {
-    "#": {
-      "item": "dirtmonds:dirtmond"
+    "X": {
+      "item": "expert_weapons:dmcompat/sharpened_dirtmond_hoe_head"
     },
-    "/": {
-      "item": "minecraft:stick"
+    "Y": {
+      "item": "expert_weapons:tool_fastener"
+    },
+    "Z": {
+      "item": "expert_weapons:tool_handle"
     }
   },
   "result": {
-    "item": "dirtmonds:dirtmond_hoe",
-    "count": 1
+    "item": "dirtmonds:dirtmond_hoe"
   }
 }

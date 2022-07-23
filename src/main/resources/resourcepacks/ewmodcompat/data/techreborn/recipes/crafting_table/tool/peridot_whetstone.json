@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "XZZ"
@@ -12,6 +20,6 @@
     }
   },
   "result": {
-    "item": "expert_weapons:trcompat/whetstone_stone_peridot"
+    "item": "expert_weapons:trcompat/peridot_whetstone"
   }
 }

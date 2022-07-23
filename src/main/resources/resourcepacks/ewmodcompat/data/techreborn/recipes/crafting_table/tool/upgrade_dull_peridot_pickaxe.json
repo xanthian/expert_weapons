@@ -12,7 +12,7 @@
     "item": "expert_weapons:trcompat/dull_peridot_pickaxe"
   },
   "addition": {
-    "item": "expert_weapons:trcompat/whetstone_stone_peridot"
+    "item": "expert_weapons:trcompat/peridot_whetstone"
   },
   "result": {
     "item": "techreborn:peridot_pickaxe"

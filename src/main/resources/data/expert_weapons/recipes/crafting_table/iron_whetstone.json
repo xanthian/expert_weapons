@@ -5,13 +5,13 @@
       ],
   "key": {
     "X": {
-      "item": "techreborn:sapphire_gem"
+      "item": "minecraft:iron_ingot"
     },
     "Z": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:granite_slab"
     }
   },
   "result": {
-    "item": "expert_weapons:trcompat/whetstone_stone_sapphire"
+    "item": "expert_weapons:iron_whetstone"
   }
 }

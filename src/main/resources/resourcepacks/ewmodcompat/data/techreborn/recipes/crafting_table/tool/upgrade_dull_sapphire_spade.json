@@ -12,7 +12,7 @@
     "item": "expert_weapons:trcompat/dull_sapphire_spade"
   },
   "addition": {
-    "item": "expert_weapons:trcompat/whetstone_stone_sapphire"
+    "item": "expert_weapons:trcompat/sapphire_whetstone"
   },
   "result": {
     "item": "techreborn:sapphire_spade"

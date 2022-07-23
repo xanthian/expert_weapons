@@ -4,7 +4,7 @@
     "item": "expert_weapons:dull_golden_axe"
   },
   "addition": {
-    "item": "expert_weapons:whetstone_deepslate_golden"
+    "item": "expert_weapons:golden_whetstone"
   },
   "result": {
     "item": "minecraft:golden_axe"

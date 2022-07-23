@@ -5,13 +5,13 @@
       ],
   "key": {
     "X": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:netherite_ingot"
     },
     "Z": {
-      "item": "minecraft:granite_slab"
+      "item": "minecraft:blackstone_slab"
     }
   },
   "result": {
-    "item": "expert_weapons:whetstone_granite_iron"
+    "item": "expert_weapons:netherite_whetstone"
   }
 }

@@ -83,40 +83,40 @@ public class TRWeaponsCompat {
         }
     });
     //Whetstones
-    public static final Item WHETSTONE_STONE_BRONZE = registerItem("trcompat/whetstone_stone_bronze",
+    public static final Item BRONZE_WHETSTONE = registerItem("trcompat/bronze_whetstone",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
             {	//Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.whetstone_stone_bronze").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.whetstone_stone_bronze2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.bronze_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.bronze_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
                 }
             });
-    public static final Item WHETSTONE_STONE_RUBY = registerItem("trcompat/whetstone_stone_ruby",
+    public static final Item ruby_whetstone = registerItem("trcompat/ruby_whetstone",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
             {	//Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.whetstone_stone_ruby").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.whetstone_stone_ruby2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.ruby_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.ruby_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
                 }
             });
-    public static final Item WHETSTONE_STONE_SAPPHIRE = registerItem("trcompat/whetstone_stone_sapphire",
+    public static final Item sapphire_whetstone = registerItem("trcompat/sapphire_whetstone",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
             {	//Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.whetstone_stone_sapphire").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.whetstone_stone_sapphire2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.sapphire_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.sapphire_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
                 }
             });
-    public static final Item WHETSTONE_STONE_PERIDOT = registerItem("trcompat/whetstone_stone_peridot",
+    public static final Item peridot_whetstone = registerItem("trcompat/peridot_whetstone",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
             {	//Tooltip
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.whetstone_stone_peridot").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.whetstone_stone_peridot2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.peridot_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.peridot_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
                 }
             });
 

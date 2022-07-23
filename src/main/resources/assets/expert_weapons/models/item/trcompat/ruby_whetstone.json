@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "expert_weapons:item/whetstone_granite_iron"
+        "layer0": "expert_weapons:item/trcompat/ruby_whetstone"
     }
 }
