@@ -1,11 +1,13 @@
 package net.xanthian.expert_weapons.materials;
 
+import com.dmcpacks.dirtmonds.item.ModItems;
+import techreborn.init.TRContent;
 import com.kwpugh.gobber2.init.ItemInit;
+
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.util.Lazy;
-import techreborn.init.TRContent;
 
 import java.util.function.Supplier;
 
@@ -26,7 +28,8 @@ public enum DullMaterials implements ToolMaterial {
 
     //Gobber2
     DULL_GOBBER2(4, 1900, 8.0F, 8.0F, 0, () -> {
-        return Ingredient.ofItems(ItemInit.GOBBER2_INGOT);    }),
+        return Ingredient.ofItems(ItemInit.GOBBER2_INGOT);
+    }),
     DULL_GOBBER2_END(5, 4000, 13.0F, 8.0F, 0, () -> {
         return Ingredient.ofItems(ItemInit.GOBBER2_INGOT_END);
     }),
@@ -46,6 +49,11 @@ public enum DullMaterials implements ToolMaterial {
     }),
     DULL_PERIDOT(2, 375, 7.0F, 1F, 0, () -> {
         return Ingredient.ofItems(TRContent.Gems.PERIDOT);
+    }),
+
+    //Dirtmonds
+    DULL_DIRTMOND(3, 781, 7.0F, 2.0F, 0, () -> {
+        return Ingredient.ofItems(ModItems.DIRTMOND);
     });
 
     private final int miningLevel;

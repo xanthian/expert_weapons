@@ -175,7 +175,6 @@ public class TRToolsCompat {
             });
 
     //Ruby
-    //Pickaxe
     //Axe
     public static final Item SHARPENED_RUBY_AXE_HEAD = registerItem("trcompat/sharpened_ruby_axe_head",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
@@ -214,6 +213,7 @@ public class TRToolsCompat {
                     tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
+    //Pickaxe
     public static final Item SHARPENED_RUBY_PICKAXE_HEAD = registerItem("trcompat/sharpened_ruby_pickaxe_head",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
     public static final Item DULL_RUBY_PICKAXE_HEAD = registerItem("trcompat/dull_ruby_pickaxe_head",

@@ -394,5 +394,26 @@
   "item.expert_weapons.vsascompat.dull_warped_iron_shovel": "Dull Iron Shovel",
   "item.expert_weapons.vsascompat.dull_warped_golden_shovel": "Dull Golden Shovel",
   "item.expert_weapons.vsascompat.dull_warped_diamond_shovel": "Dull Diamond Shovel",
-  "item.expert_weapons.vsascompat.dull_warped_netherite_shovel": "Dull Netherite Shovel"
+  "item.expert_weapons.vsascompat.dull_warped_netherite_shovel": "Dull Netherite Shovel",
+
+  "_comment18" : "Dirtmonds",
+  "item.expert_weapons.dmcompat.dirtmond_guard": "§bDirtmond Guard",
+  "item.expert_weapons.dmcompat.dull_dirtmond_blade": "Dull Dirtmond Blade",
+  "item.expert_weapons.dmcompat.sharpened_dirtmond_blade": "§bSharpened Dirtmond Blade",
+  "item.expert_weapons.dmcompat.dull_dirtmond_sword": "Dull Dirtmond Sword",
+  "item.expert_weapons.dmcompat.sharpened_dirtmond_axe_head": "Sharpened Dirtmond Axe Head",
+  "item.expert_weapons.dmcompat.sharpened_dirtmond_pickaxe_head": "Sharpened Dirtmond Pickaxe Head",
+  "item.expert_weapons.dmcompat.sharpened_dirtmond_shovel_head": "Sharpened Dirtmond Shovel Head",
+  "item.expert_weapons.dmcompat.sharpened_dirtmond_hoe_head": "Sharpened Dirtmond Hoe Head",
+  "item.expert_weapons.dmcompat.dull_dirtmond_axe_head": "Dull Dirtmond Axe Head",
+  "item.expert_weapons.dmcompat.dull_dirtmond_pickaxe_head": "Dull Dirtmond Pickaxe Head",
+  "item.expert_weapons.dmcompat.dull_dirtmond_shovel_head": "Dull Dirtmond Shovel Head",
+  "item.expert_weapons.dmcompat.dull_dirtmond_hoe_head": "Dull Dirtmond Hoe Head",
+  "item.expert_weapons.dmcompat.dull_dirtmond_axe": "Dull Dirtmond Axe",
+  "item.expert_weapons.dmcompat.dull_dirtmond_pickaxe": "Dull Dirtmond Pickaxe",
+  "item.expert_weapons.dmcompat.dull_dirtmond_shovel": "Dull Dirtmond Shovel",
+  "item.expert_weapons.dmcompat.dull_dirtmond_hoe": "Dull Dirtmond Hoe",
+  "item.expert_weapons.dmcompat_dirtmond_whetstone": "Dirtmond Whetstone",
+  "tooltip.expert_weapons.dirtmond_whetstone": "Used in the Smithing table for sharpening Dull Dirtmond items",
+  "tooltip.expert_weapons.dirtmond_whetstone2": "or to upgrade a Dull Dirtmond Weapon/Tool"
 }

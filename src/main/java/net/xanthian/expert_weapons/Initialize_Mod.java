@@ -59,6 +59,10 @@ public class Initialize_Mod implements ModInitializer {
             TRToolsCompat.registerModItems();
         }
 
+        if (FabricLoader.getInstance().isModLoaded("dirtmonds")) {
+            DirtmondsCompat.registerModItems();
+        }
+
         if (FabricLoader.getInstance().isModLoaded("vsas")) {
             VsasWeaponsCompat.registerModItems();
             VsasToolsCompat.registerModItems();
