@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "advancednetherite"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z"
+      ],
+  "key": {
+    "Z": {
+      "item": "advancednetherite:netherite_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:ancompat/dull_netherite_gold_shovel_head"
+  }
+}

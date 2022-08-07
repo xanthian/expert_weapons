@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "advancednetherite"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:ancompat/dull_netherite_emerald_axe"
+  },
+  "addition": {
+    "item": "expert_weapons:ancompat/netherite_emerald_whetstone"
+  },
+  "result": {
+    "item": "advancednetherite:netherite_emerald_axe"
+  }
+}

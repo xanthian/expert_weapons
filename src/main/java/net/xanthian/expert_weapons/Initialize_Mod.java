@@ -44,9 +44,6 @@ public class Initialize_Mod implements ModInitializer {
 
         ExpertWeapons.registerModItems();
         ExpertTools.registerModItems();
-        DullWeapons.registerModItems();
-        DullToolParts.registerModItems();
-        DullTools.registerModItems();
         ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("ewmodcompat"),
                 FabricLoader.getInstance().getModContainer(Initialize_Mod.MOD_ID).orElseThrow(), ResourcePackActivationType.ALWAYS_ENABLED);
 
@@ -66,6 +63,10 @@ public class Initialize_Mod implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("vsas")) {
             VsasWeaponsCompat.registerModItems();
             VsasToolsCompat.registerModItems();
+        }
+
+        if (FabricLoader.getInstance().isModLoaded("advancednetherite")) {
+            AdvNetheriteCompat.registerModItems();
         }
     }
 }

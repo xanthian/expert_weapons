@@ -1,0 +1,449 @@
+package net.xanthian.expert_weapons.compat;
+
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.client.item.TooltipContext;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.SwordItem;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.world.World;
+import net.xanthian.expert_weapons.Initialize_Mod;
+import net.xanthian.expert_weapons.item.Custom.AxeItem;
+import net.xanthian.expert_weapons.item.Custom.HoeItem;
+import net.xanthian.expert_weapons.item.Custom.PickaxeItem;
+import net.xanthian.expert_weapons.materials.DullMaterials;
+
+import java.util.List;
+
+public class AdvNetheriteCompat {
+
+    // Netherite-Iron
+    public static final Item DULL_NETHERITE_IRON_AXE_HEAD = registerItem("ancompat/dull_netherite_iron_axe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+    {   @Override
+    public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+    }
+    });
+    public static final Item SHARPENED_NETHERITE_IRON_AXE_HEAD = registerItem("ancompat/sharpened_netherite_iron_axe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_IRON_AXE = registerItem("ancompat/dull_netherite_iron_axe",
+            new AxeItem(DullMaterials.DULL_NETHERITE_IRON,4,-3.0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+        @Override
+        public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+            tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+            tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+        }
+    });
+
+    public static final Item DULL_NETHERITE_IRON_HOE_HEAD = registerItem("ancompat/dull_netherite_iron_hoe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_IRON_HOE_HEAD = registerItem("ancompat/sharpened_netherite_iron_hoe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_IRON_HOE = registerItem("ancompat/dull_netherite_iron_hoe",
+            new HoeItem(DullMaterials.DULL_NETHERITE_IRON,-5,0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item DULL_NETHERITE_IRON_PICKAXE_HEAD = registerItem("ancompat/dull_netherite_iron_pickaxe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_IRON_PICKAXE_HEAD = registerItem("ancompat/sharpened_netherite_iron_pickaxe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_IRON_PICKAXE = registerItem("ancompat/dull_netherite_iron_pickaxe",
+            new PickaxeItem(DullMaterials.DULL_NETHERITE_IRON,0,-2.8f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item DULL_NETHERITE_IRON_SHOVEL_HEAD = registerItem("ancompat/dull_netherite_iron_shovel_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_IRON_SHOVEL_HEAD = registerItem("ancompat/sharpened_netherite_iron_shovel_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_IRON_SHOVEL = registerItem("ancompat/dull_netherite_iron_shovel",
+            new ShovelItem(DullMaterials.DULL_NETHERITE_IRON,0.5F,-3.0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item NETHERITE_IRON_GUARD = registerItem("ancompat/netherite_iron_guard",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+    );
+    public static final Item DULL_NETHERITE_IRON_BLADE = registerItem("ancompat/dull_netherite_iron_blade",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_IRON_BLADE = registerItem("ancompat/sharpened_netherite_iron_blade",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
+    public static final Item DULL_NETHERITE_IRON_SWORD = registerItem("ancompat/dull_netherite_iron_sword",
+            new SwordItem(DullMaterials.DULL_NETHERITE_IRON,2,-2.4f, new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item NETHERITE_IRON_WHETSTONE = registerItem("ancompat/netherite_iron_whetstone",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+            {
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.advnetherite_iron_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.advnetherite_iron_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                }
+            });
+
+    // Netherite-Gold
+    public static final Item DULL_NETHERITE_GOLD_AXE_HEAD = registerItem("ancompat/dull_netherite_gold_axe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_GOLD_AXE_HEAD = registerItem("ancompat/sharpened_netherite_gold_axe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_GOLD_AXE = registerItem("ancompat/dull_netherite_gold_axe",
+            new AxeItem(DullMaterials.DULL_NETHERITE_GOLD,5,-3.0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item DULL_NETHERITE_GOLD_HOE_HEAD = registerItem("ancompat/dull_netherite_gold_hoe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_GOLD_HOE_HEAD = registerItem("ancompat/sharpened_netherite_gold_hoe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_GOLD_HOE = registerItem("ancompat/dull_netherite_gold_hoe",
+            new HoeItem(DullMaterials.DULL_NETHERITE_GOLD,-5,0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item DULL_NETHERITE_GOLD_PICKAXE_HEAD = registerItem("ancompat/dull_netherite_gold_pickaxe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_GOLD_PICKAXE_HEAD = registerItem("ancompat/sharpened_netherite_gold_pickaxe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_GOLD_PICKAXE = registerItem("ancompat/dull_netherite_gold_pickaxe",
+            new PickaxeItem(DullMaterials.DULL_NETHERITE_GOLD,0,-2.8f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item DULL_NETHERITE_GOLD_SHOVEL_HEAD = registerItem("ancompat/dull_netherite_gold_shovel_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_GOLD_SHOVEL_HEAD = registerItem("ancompat/sharpened_netherite_gold_shovel_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_GOLD_SHOVEL = registerItem("ancompat/dull_netherite_gold_shovel",
+            new ShovelItem(DullMaterials.DULL_NETHERITE_GOLD,0.5F,-3.0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item NETHERITE_GOLD_GUARD = registerItem("ancompat/netherite_gold_guard",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+    );
+    public static final Item DULL_NETHERITE_GOLD_BLADE = registerItem("ancompat/dull_netherite_gold_blade",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_GOLD_BLADE = registerItem("ancompat/sharpened_netherite_gold_blade",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
+    public static final Item DULL_NETHERITE_GOLD_SWORD = registerItem("ancompat/dull_netherite_gold_sword",
+            new SwordItem(DullMaterials.DULL_NETHERITE_GOLD,3,-2.4f, new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+    public static final Item NETHERITE_GOLD_WHETSTONE = registerItem("ancompat/netherite_gold_whetstone",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+            {
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.advnetherite_gold_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.advnetherite_gold_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                }
+            });
+
+    // Netherite-Emerald
+    public static final Item DULL_NETHERITE_EMERALD_AXE_HEAD = registerItem("ancompat/dull_netherite_emerald_axe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_EMERALD_AXE_HEAD = registerItem("ancompat/sharpened_netherite_emerald_axe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_EMERALD_AXE = registerItem("ancompat/dull_netherite_emerald_axe",
+            new AxeItem(DullMaterials.DULL_NETHERITE_EMERALD,5,-3.0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item DULL_NETHERITE_EMERALD_HOE_HEAD = registerItem("ancompat/dull_netherite_emerald_hoe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_EMERALD_HOE_HEAD = registerItem("ancompat/sharpened_netherite_emerald_hoe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_EMERALD_HOE = registerItem("ancompat/dull_netherite_emerald_hoe",
+            new HoeItem(DullMaterials.DULL_NETHERITE_EMERALD,-6,0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item DULL_NETHERITE_EMERALD_PICKAXE_HEAD = registerItem("ancompat/dull_netherite_emerald_pickaxe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_EMERALD_PICKAXE_HEAD = registerItem("ancompat/sharpened_netherite_emerald_pickaxe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_EMERALD_PICKAXE = registerItem("ancompat/dull_netherite_emerald_pickaxe",
+            new PickaxeItem(DullMaterials.DULL_NETHERITE_EMERALD,0,-2.8f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item DULL_NETHERITE_EMERALD_SHOVEL_HEAD = registerItem("ancompat/dull_netherite_emerald_shovel_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_EMERALD_SHOVEL_HEAD = registerItem("ancompat/sharpened_netherite_emerald_shovel_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_EMERALD_SHOVEL = registerItem("ancompat/dull_netherite_emerald_shovel",
+            new ShovelItem(DullMaterials.DULL_NETHERITE_EMERALD,0,-3.0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item NETHERITE_EMERALD_GUARD = registerItem("ancompat/netherite_emerald_guard",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+    );
+    public static final Item DULL_NETHERITE_EMERALD_BLADE = registerItem("ancompat/dull_netherite_emerald_blade",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+
+    public static final Item DULL_NETHERITE_EMERALD_SWORD = registerItem("ancompat/dull_netherite_emerald_sword",
+            new SwordItem(DullMaterials.DULL_NETHERITE_EMERALD,3,-2.4f, new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+    public static final Item SHARPENED_NETHERITE_EMERALD_BLADE = registerItem("ancompat/sharpened_netherite_emerald_blade",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
+    public static final Item NETHERITE_EMERALD_WHETSTONE = registerItem("ancompat/netherite_emerald_whetstone",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+            {
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.advnetherite_emerald_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.advnetherite_emerald_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                }
+            });
+
+    // Netherite-Diamond
+
+    public static final Item DULL_NETHERITE_DIAMOND_AXE_HEAD = registerItem("ancompat/dull_netherite_diamond_axe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_DIAMOND_AXE_HEAD = registerItem("ancompat/sharpened_netherite_diamond_axe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_DIAMOND_AXE = registerItem("ancompat/dull_netherite_diamond_axe",
+            new AxeItem(DullMaterials.DULL_NETHERITE_DIAMOND,6,-3.0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+
+    public static final Item DULL_NETHERITE_DIAMOND_HOE_HEAD = registerItem("ancompat/dull_netherite_diamond_hoe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_DIAMOND_HOE_HEAD = registerItem("ancompat/sharpened_netherite_diamond_hoe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_DIAMOND_HOE = registerItem("ancompat/dull_netherite_diamond_hoe",
+            new HoeItem(DullMaterials.DULL_NETHERITE_DIAMOND,-6,0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+
+    public static final Item DULL_NETHERITE_DIAMOND_PICKAXE_HEAD = registerItem("ancompat/dull_netherite_diamond_pickaxe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_DIAMOND_PICKAXE_HEAD = registerItem("ancompat/sharpened_netherite_diamond_pickaxe_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_DIAMOND_PICKAXE = registerItem("ancompat/dull_netherite_diamond_pickaxe",
+            new PickaxeItem(DullMaterials.DULL_NETHERITE_DIAMOND,0,-2.8f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item SHARPENED_NETHERITE_DIAMOND_SHOVEL_HEAD = registerItem("ancompat/sharpened_netherite_diamond_shovel_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+    public static final Item DULL_NETHERITE_DIAMOND_SHOVEL_HEAD = registerItem("ancompat/dull_netherite_diamond_shovel_head",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item DULL_NETHERITE_DIAMOND_SHOVEL = registerItem("ancompat/dull_netherite_diamond_shovel",
+            new ShovelItem(DullMaterials.DULL_NETHERITE_DIAMOND,0,-3.0f, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item NETHERITE_DIAMOND_GUARD = registerItem("ancompat/netherite_diamond_guard",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+    );
+    public static final Item DULL_NETHERITE_DIAMOND_BLADE = registerItem("ancompat/dull_netherite_diamond_blade",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+            {   @Override
+            public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(Text.translatable("tooltip.expert_weapons.sharpen").formatted(Formatting.ITALIC, Formatting.GRAY));
+            }
+            });
+    public static final Item SHARPENED_NETHERITE_DIAMOND_BLADE = registerItem("ancompat/sharpened_netherite_diamond_blade",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
+    public static final Item DULL_NETHERITE_DIAMOND_SWORD = registerItem("ancompat/dull_netherite_diamond_sword",
+            new SwordItem(DullMaterials.DULL_NETHERITE_DIAMOND,4,-2.4f, new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                }
+            });
+
+    public static final Item NETHERITE_DIAMOND_WHETSTONE = registerItem("ancompat/netherite_diamond_whetstone",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
+            {
+                @Override
+                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.advnetherite_diamond_whetstone").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.advnetherite_diamond_whetstone2").formatted(Formatting.ITALIC, Formatting.DARK_GRAY));
+                }
+            });
+    
+    
+    //Register Items
+    private static Item registerItem(String name, Item item) {
+        return Registry.register(Registry.ITEM, new Identifier(Initialize_Mod.MOD_ID, name), item);
+    }
+    public static void registerModItems() {
+    }
+}

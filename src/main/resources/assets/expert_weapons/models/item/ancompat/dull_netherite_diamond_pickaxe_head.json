@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "expert_weapons:item/ancompat/dull_netherite_diamond_pickaxe_head"
+  }
+}

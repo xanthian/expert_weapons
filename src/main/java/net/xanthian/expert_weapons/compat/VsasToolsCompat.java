@@ -44,8 +44,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_IRON_HOE = registerItem("vsascompat/dull_acacia_iron_hoe",
@@ -53,8 +53,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_IRON_PICKAXE = registerItem("vsascompat/dull_acacia_iron_pickaxe",
@@ -62,8 +62,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_IRON_SHOVEL = registerItem("vsascompat/dull_acacia_iron_shovel",
@@ -71,8 +71,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -81,8 +81,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_GOLDEN_HOE = registerItem("vsascompat/dull_acacia_golden_hoe",
@@ -90,8 +90,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_GOLDEN_PICKAXE = registerItem("vsascompat/dull_acacia_golden_pickaxe",
@@ -99,8 +99,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_GOLDEN_SHOVEL = registerItem("vsascompat/dull_acacia_golden_shovel",
@@ -108,8 +108,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -118,8 +118,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_DIAMOND_HOE = registerItem("vsascompat/dull_acacia_diamond_hoe",
@@ -127,8 +127,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_DIAMOND_PICKAXE = registerItem("vsascompat/dull_acacia_diamond_pickaxe",
@@ -136,8 +136,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_DIAMOND_SHOVEL = registerItem("vsascompat/dull_acacia_diamond_shovel",
@@ -145,8 +145,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_NETHERITE_AXE = registerItem("vsascompat/dull_acacia_netherite_axe",
@@ -154,8 +154,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_NETHERITE_HOE = registerItem("vsascompat/dull_acacia_netherite_hoe",
@@ -163,8 +163,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_NETHERITE_PICKAXE = registerItem("vsascompat/dull_acacia_netherite_pickaxe",
@@ -172,8 +172,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_ACACIA_NETHERITE_SHOVEL = registerItem("vsascompat/dull_acacia_netherite_shovel",
@@ -181,8 +181,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -192,8 +192,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_IRON_HOE = registerItem("vsascompat/dull_birch_iron_hoe",
@@ -201,8 +201,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_IRON_PICKAXE = registerItem("vsascompat/dull_birch_iron_pickaxe",
@@ -210,8 +210,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_IRON_SHOVEL = registerItem("vsascompat/dull_birch_iron_shovel",
@@ -219,8 +219,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -229,8 +229,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_GOLDEN_HOE = registerItem("vsascompat/dull_birch_golden_hoe",
@@ -238,8 +238,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_GOLDEN_PICKAXE = registerItem("vsascompat/dull_birch_golden_pickaxe",
@@ -247,8 +247,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_GOLDEN_SHOVEL = registerItem("vsascompat/dull_birch_golden_shovel",
@@ -256,8 +256,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -266,8 +266,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_DIAMOND_HOE = registerItem("vsascompat/dull_birch_diamond_hoe",
@@ -275,8 +275,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_DIAMOND_PICKAXE = registerItem("vsascompat/dull_birch_diamond_pickaxe",
@@ -284,8 +284,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_DIAMOND_SHOVEL = registerItem("vsascompat/dull_birch_diamond_shovel",
@@ -293,8 +293,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_NETHERITE_AXE = registerItem("vsascompat/dull_birch_netherite_axe",
@@ -302,8 +302,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_NETHERITE_HOE = registerItem("vsascompat/dull_birch_netherite_hoe",
@@ -311,8 +311,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_NETHERITE_PICKAXE = registerItem("vsascompat/dull_birch_netherite_pickaxe",
@@ -320,8 +320,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_BIRCH_NETHERITE_SHOVEL = registerItem("vsascompat/dull_birch_netherite_shovel",
@@ -329,8 +329,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -340,8 +340,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_IRON_HOE = registerItem("vsascompat/dull_crimson_iron_hoe",
@@ -349,8 +349,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_IRON_PICKAXE = registerItem("vsascompat/dull_crimson_iron_pickaxe",
@@ -358,8 +358,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_IRON_SHOVEL = registerItem("vsascompat/dull_crimson_iron_shovel",
@@ -367,8 +367,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -377,8 +377,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_GOLDEN_HOE = registerItem("vsascompat/dull_crimson_golden_hoe",
@@ -386,8 +386,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_GOLDEN_PICKAXE = registerItem("vsascompat/dull_crimson_golden_pickaxe",
@@ -395,8 +395,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_GOLDEN_SHOVEL = registerItem("vsascompat/dull_crimson_golden_shovel",
@@ -404,8 +404,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -414,8 +414,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_DIAMOND_HOE = registerItem("vsascompat/dull_crimson_diamond_hoe",
@@ -423,8 +423,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_DIAMOND_PICKAXE = registerItem("vsascompat/dull_crimson_diamond_pickaxe",
@@ -432,8 +432,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_DIAMOND_SHOVEL = registerItem("vsascompat/dull_crimson_diamond_shovel",
@@ -441,8 +441,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_NETHERITE_AXE = registerItem("vsascompat/dull_crimson_netherite_axe",
@@ -450,8 +450,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_NETHERITE_HOE = registerItem("vsascompat/dull_crimson_netherite_hoe",
@@ -459,8 +459,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_NETHERITE_PICKAXE = registerItem("vsascompat/dull_crimson_netherite_pickaxe",
@@ -468,8 +468,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_CRIMSON_NETHERITE_SHOVEL = registerItem("vsascompat/dull_crimson_netherite_shovel",
@@ -477,8 +477,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -488,8 +488,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_IRON_HOE = registerItem("vsascompat/dull_dark_oak_iron_hoe",
@@ -497,8 +497,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_IRON_PICKAXE = registerItem("vsascompat/dull_dark_oak_iron_pickaxe",
@@ -506,8 +506,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_IRON_SHOVEL = registerItem("vsascompat/dull_dark_oak_iron_shovel",
@@ -515,8 +515,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -525,8 +525,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_GOLDEN_HOE = registerItem("vsascompat/dull_dark_oak_golden_hoe",
@@ -534,8 +534,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_GOLDEN_PICKAXE = registerItem("vsascompat/dull_dark_oak_golden_pickaxe",
@@ -543,8 +543,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_GOLDEN_SHOVEL = registerItem("vsascompat/dull_dark_oak_golden_shovel",
@@ -552,8 +552,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -562,8 +562,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_DIAMOND_HOE = registerItem("vsascompat/dull_dark_oak_diamond_hoe",
@@ -571,8 +571,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_DIAMOND_PICKAXE = registerItem("vsascompat/dull_dark_oak_diamond_pickaxe",
@@ -580,8 +580,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_DIAMOND_SHOVEL = registerItem("vsascompat/dull_dark_oak_diamond_shovel",
@@ -589,8 +589,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_NETHERITE_AXE = registerItem("vsascompat/dull_dark_oak_netherite_axe",
@@ -598,8 +598,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_NETHERITE_HOE = registerItem("vsascompat/dull_dark_oak_netherite_hoe",
@@ -607,8 +607,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_NETHERITE_PICKAXE = registerItem("vsascompat/dull_dark_oak_netherite_pickaxe",
@@ -616,8 +616,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_DARK_OAK_NETHERITE_SHOVEL = registerItem("vsascompat/dull_dark_oak_netherite_shovel",
@@ -625,8 +625,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -636,8 +636,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_IRON_HOE = registerItem("vsascompat/dull_jungle_iron_hoe",
@@ -645,8 +645,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_IRON_PICKAXE = registerItem("vsascompat/dull_jungle_iron_pickaxe",
@@ -654,8 +654,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_IRON_SHOVEL = registerItem("vsascompat/dull_jungle_iron_shovel",
@@ -663,8 +663,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -673,8 +673,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_GOLDEN_HOE = registerItem("vsascompat/dull_jungle_golden_hoe",
@@ -682,8 +682,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_GOLDEN_PICKAXE = registerItem("vsascompat/dull_jungle_golden_pickaxe",
@@ -691,8 +691,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_GOLDEN_SHOVEL = registerItem("vsascompat/dull_jungle_golden_shovel",
@@ -700,8 +700,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -710,8 +710,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_DIAMOND_HOE = registerItem("vsascompat/dull_jungle_diamond_hoe",
@@ -719,8 +719,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_DIAMOND_PICKAXE = registerItem("vsascompat/dull_jungle_diamond_pickaxe",
@@ -728,8 +728,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_DIAMOND_SHOVEL = registerItem("vsascompat/dull_jungle_diamond_shovel",
@@ -737,8 +737,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_NETHERITE_AXE = registerItem("vsascompat/dull_jungle_netherite_axe",
@@ -746,8 +746,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_NETHERITE_HOE = registerItem("vsascompat/dull_jungle_netherite_hoe",
@@ -755,8 +755,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_NETHERITE_PICKAXE = registerItem("vsascompat/dull_jungle_netherite_pickaxe",
@@ -764,8 +764,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_JUNGLE_NETHERITE_SHOVEL = registerItem("vsascompat/dull_jungle_netherite_shovel",
@@ -773,8 +773,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -784,8 +784,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_IRON_HOE = registerItem("vsascompat/dull_oak_iron_hoe",
@@ -793,8 +793,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_IRON_PICKAXE = registerItem("vsascompat/dull_oak_iron_pickaxe",
@@ -802,8 +802,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_IRON_SHOVEL = registerItem("vsascompat/dull_oak_iron_shovel",
@@ -811,8 +811,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -821,8 +821,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_GOLDEN_HOE = registerItem("vsascompat/dull_oak_golden_hoe",
@@ -830,8 +830,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_GOLDEN_PICKAXE = registerItem("vsascompat/dull_oak_golden_pickaxe",
@@ -839,8 +839,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_GOLDEN_SHOVEL = registerItem("vsascompat/dull_oak_golden_shovel",
@@ -848,8 +848,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -858,8 +858,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_DIAMOND_HOE = registerItem("vsascompat/dull_oak_diamond_hoe",
@@ -867,8 +867,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_DIAMOND_PICKAXE = registerItem("vsascompat/dull_oak_diamond_pickaxe",
@@ -876,8 +876,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_DIAMOND_SHOVEL = registerItem("vsascompat/dull_oak_diamond_shovel",
@@ -885,8 +885,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_NETHERITE_AXE = registerItem("vsascompat/dull_oak_netherite_axe",
@@ -894,8 +894,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_NETHERITE_HOE = registerItem("vsascompat/dull_oak_netherite_hoe",
@@ -903,8 +903,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_NETHERITE_PICKAXE = registerItem("vsascompat/dull_oak_netherite_pickaxe",
@@ -912,8 +912,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_OAK_NETHERITE_SHOVEL = registerItem("vsascompat/dull_oak_netherite_shovel",
@@ -921,8 +921,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -932,8 +932,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_IRON_HOE = registerItem("vsascompat/dull_spruce_iron_hoe",
@@ -941,8 +941,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_IRON_PICKAXE = registerItem("vsascompat/dull_spruce_iron_pickaxe",
@@ -950,8 +950,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_IRON_SHOVEL = registerItem("vsascompat/dull_spruce_iron_shovel",
@@ -959,8 +959,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -969,8 +969,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_GOLDEN_HOE = registerItem("vsascompat/dull_spruce_golden_hoe",
@@ -978,8 +978,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_GOLDEN_PICKAXE = registerItem("vsascompat/dull_spruce_golden_pickaxe",
@@ -987,8 +987,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_GOLDEN_SHOVEL = registerItem("vsascompat/dull_spruce_golden_shovel",
@@ -996,8 +996,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -1006,8 +1006,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_DIAMOND_HOE = registerItem("vsascompat/dull_spruce_diamond_hoe",
@@ -1015,8 +1015,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_DIAMOND_PICKAXE = registerItem("vsascompat/dull_spruce_diamond_pickaxe",
@@ -1024,8 +1024,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_DIAMOND_SHOVEL = registerItem("vsascompat/dull_spruce_diamond_shovel",
@@ -1033,8 +1033,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_NETHERITE_AXE = registerItem("vsascompat/dull_spruce_netherite_axe",
@@ -1042,8 +1042,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_NETHERITE_HOE = registerItem("vsascompat/dull_spruce_netherite_hoe",
@@ -1051,8 +1051,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_NETHERITE_PICKAXE = registerItem("vsascompat/dull_spruce_netherite_pickaxe",
@@ -1060,8 +1060,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_SPRUCE_NETHERITE_SHOVEL = registerItem("vsascompat/dull_spruce_netherite_shovel",
@@ -1069,8 +1069,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -1080,8 +1080,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_IRON_HOE = registerItem("vsascompat/dull_warped_iron_hoe",
@@ -1089,8 +1089,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_IRON_PICKAXE = registerItem("vsascompat/dull_warped_iron_pickaxe",
@@ -1098,8 +1098,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_IRON_SHOVEL = registerItem("vsascompat/dull_warped_iron_shovel",
@@ -1107,8 +1107,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -1117,8 +1117,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_GOLDEN_HOE = registerItem("vsascompat/dull_warped_golden_hoe",
@@ -1126,8 +1126,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_GOLDEN_PICKAXE = registerItem("vsascompat/dull_warped_golden_pickaxe",
@@ -1135,8 +1135,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_GOLDEN_SHOVEL = registerItem("vsascompat/dull_warped_golden_shovel",
@@ -1144,8 +1144,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
@@ -1154,8 +1154,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_DIAMOND_HOE = registerItem("vsascompat/dull_warped_diamond_hoe",
@@ -1163,8 +1163,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_DIAMOND_PICKAXE = registerItem("vsascompat/dull_warped_diamond_pickaxe",
@@ -1172,8 +1172,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_DIAMOND_SHOVEL = registerItem("vsascompat/dull_warped_diamond_shovel",
@@ -1181,8 +1181,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_NETHERITE_AXE = registerItem("vsascompat/dull_warped_netherite_axe",
@@ -1190,8 +1190,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_NETHERITE_HOE = registerItem("vsascompat/dull_warped_netherite_hoe",
@@ -1199,8 +1199,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_NETHERITE_PICKAXE = registerItem("vsascompat/dull_warped_netherite_pickaxe",
@@ -1208,8 +1208,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
     public static final Item DULL_WARPED_NETHERITE_SHOVEL = registerItem("vsascompat/dull_warped_netherite_shovel",
@@ -1217,8 +1217,8 @@ public class VsasToolsCompat {
                     new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.export_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
+                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
                 }
             });
 
