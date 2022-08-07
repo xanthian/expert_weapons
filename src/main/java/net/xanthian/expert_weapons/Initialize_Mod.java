@@ -1,5 +1,6 @@
 package net.xanthian.expert_weapons;
 
+import com.google.common.collect.Lists;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -15,7 +16,6 @@ import org.apache.commons.lang3.tuple.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Arrays;
 import java.util.List;
 
 
@@ -29,15 +29,7 @@ public class Initialize_Mod implements ModInitializer {
     public static final ItemGroup EXPERT_TOOLS = FabricItemGroupBuilder.build(new Identifier(Initialize_Mod.MOD_ID, "expert_tools"),
             () -> new ItemStack(ExpertTools.SHARPENED_DIAMOND_AXE_HEAD));
 
-    public static final List<Pair<String, String[]>> woodTypes = Arrays.asList(
-            Pair.of("acacia", new String[]{"vsas"}),
-            Pair.of("birch", new String[]{"vsas"}),
-            Pair.of("crimson", new String[]{"vsas"}),
-            Pair.of("dark_oak", new String[]{"vsas"}),
-            Pair.of("jungle", new String[]{"vsas"}),
-            Pair.of("oak", new String[]{"vsas"}),
-            Pair.of("spruce", new String[]{"vsas"}),
-            Pair.of("warped", new String[]{"vsas"}));
+    public static List<Pair<String, String[]>> materialTypes = Lists.newArrayList();
 
     @Override
     public void onInitialize() {
@@ -63,10 +55,22 @@ public class Initialize_Mod implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("vsas")) {
             VsasWeaponsCompat.registerModItems();
             VsasToolsCompat.registerModItems();
+            materialTypes.add(Pair.of("acacia", new String[]{"vsas"}));
+            materialTypes.add(Pair.of("birch", new String[]{"vsas"}));
+            materialTypes.add(Pair.of("crimson", new String[]{"vsas"}));
+            materialTypes.add(Pair.of("dark_oak", new String[]{"vsas"}));
+            materialTypes.add(Pair.of("jungle", new String[]{"vsas"}));
+            materialTypes.add(Pair.of("oak", new String[]{"vsas"}));
+            materialTypes.add(Pair.of("spruce", new String[]{"vsas"}));
+            materialTypes.add(Pair.of("warped", new String[]{"vsas"}));
         }
 
         if (FabricLoader.getInstance().isModLoaded("advancednetherite")) {
             AdvNetheriteCompat.registerModItems();
+        }
+
+        if (FabricLoader.getInstance().isModLoaded("indrev")) {
+            IndustrialRevolution.registerModItems();
         }
     }
 }

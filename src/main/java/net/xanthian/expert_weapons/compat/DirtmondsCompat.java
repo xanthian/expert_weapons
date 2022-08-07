@@ -1,21 +1,17 @@
 package net.xanthian.expert_weapons.compat;
 
+import com.dmcpacks.dirtmonds.item.ModToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 import net.xanthian.expert_weapons.Initialize_Mod;
-import net.xanthian.expert_weapons.item.Custom.AxeItem;
-import net.xanthian.expert_weapons.item.Custom.HoeItem;
-import net.xanthian.expert_weapons.item.Custom.PickaxeItem;
-import net.xanthian.expert_weapons.materials.DullMaterials;
+import net.xanthian.expert_weapons.item.DullItems.*;
 
 import java.util.List;
 
@@ -32,14 +28,8 @@ public class DirtmondsCompat {
     public static final Item SHARPENED_DIRTMOND_AXE_HEAD = registerItem("dmcompat/sharpened_dirtmond_axe_head",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
     public static final Item DULL_DIRTMOND_AXE = registerItem("dmcompat/dull_dirtmond_axe",
-            new AxeItem(DullMaterials.DULL_DIRTMOND,3,-2.9f,
-                    new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
+            new DullAxeItem(ModToolMaterial.DIRTMOND,3,-2.9F)
+            );
     public static final Item DULL_DIRTMOND_HOE_HEAD = registerItem("dmcompat/dull_dirtmond_hoe_head",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
@@ -50,14 +40,8 @@ public class DirtmondsCompat {
     public static final Item SHARPENED_DIRTMOND_HOE_HEAD = registerItem("dmcompat/sharpened_dirtmond_hoe_head",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
     public static final Item DULL_DIRTMOND_HOE = registerItem("dmcompat/dull_dirtmond_hoe",
-            new HoeItem(DullMaterials.DULL_DIRTMOND,-2,-1f,
-                    new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
+            new DullHoeItem(ModToolMaterial.DIRTMOND,-2,-1f));
+
     public static final Item DULL_DIRTMOND_PICKAXE_HEAD = registerItem("dmcompat/dull_dirtmond_pickaxe_head",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
@@ -68,14 +52,8 @@ public class DirtmondsCompat {
     public static final Item SHARPENED_DIRTMOND_PICKAXE_HEAD = registerItem("dmcompat/sharpened_dirtmond_pickaxe_head",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
     public static final Item DULL_DIRTMOND_PICKAXE = registerItem("dmcompat/dull_dirtmond_pickaxe",
-            new PickaxeItem(DullMaterials.DULL_DIRTMOND,-1,-2.8f,
-                    new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
+            new DullPickaxeItem(ModToolMaterial.DIRTMOND,-1,-2.8f));
+
     public static final Item DULL_DIRTMOND_SHOVEL_HEAD = registerItem("dmcompat/dull_dirtmond_shovel_head",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
                 @Override
@@ -86,15 +64,7 @@ public class DirtmondsCompat {
     public static final Item SHARPENED_DIRTMOND_SHOVEL_HEAD = registerItem("dmcompat/sharpened_dirtmond_shovel_head",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
     public static final Item DULL_DIRTMOND_SHOVEL = registerItem("dmcompat/dull_dirtmond_shovel",
-            new ShovelItem(DullMaterials.DULL_DIRTMOND,-2,-2.9f,
-                    new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS))	{
-                
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
+            new DullShovelItem(ModToolMaterial.DIRTMOND,-2,-2.9f));
 
     //Weapons
     public static final Item DIRTMOND_GUARD = registerItem("dmcompat/dirtmond_guard",
@@ -110,14 +80,8 @@ public class DirtmondsCompat {
     public static final Item SHARPENED_DIRTMOND_BLADE = registerItem("dmcompat/sharpened_dirtmond_blade",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
     public static final Item DULL_DIRTMOND_SWORD = registerItem("dmcompat/dull_dirtmond_sword",
-            new SwordItem(DullMaterials.DULL_DIRTMOND,1,-2.4f,
-                    new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
-                @Override
-                public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-                    tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-                }
-            });
+            new DullSwordItem(ModToolMaterial.DIRTMOND,1,-2.4f));
+
     public static final Item DIRTMOND_WHETSTONE = registerItem("dmcompat/dirtmond_whetstone",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))            {
                 @Override

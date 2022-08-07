@@ -727,4 +727,40 @@ public class Recipes {
         json.add("result", result);
         return json;
     }
+
+    // Axe
+    public static JsonObject createAxeRecipeJson(String material, String compat, String[] mod) {
+        Gson gson = new Gson();
+        JsonArray modList = gson.toJsonTree(mod).getAsJsonArray();
+        JsonObject json = new JsonObject();
+        if (modList.size() > 0) {
+            JsonArray loadConditions = new JsonArray();
+            JsonObject loadCondition = new JsonObject();
+            loadCondition.addProperty("condition", "fabric:all_mods_loaded");
+            loadCondition.add("values", modList);
+            loadConditions.add(loadCondition);
+            json.add("fabric:load_conditions", loadConditions);
+        }
+        json.addProperty("type", "minecraft:crafting_shaped");
+        JsonArray pattern = new JsonArray();
+        pattern.add("  H");
+        pattern.add(" N ");
+        pattern.add("T  ");
+        json.add("pattern", pattern);
+        JsonObject keyList = new JsonObject();
+        JsonObject iKey = new JsonObject();
+        iKey.addProperty("item", MOD_ID + ":sharpened_" + material + "_axe_head");
+        keyList.add("H", iKey);
+        json.add("key", keyList);
+        iKey = new JsonObject();
+        iKey.addProperty("item", MOD_ID + ":tool_fastener");
+        keyList.add("N", iKey);
+        iKey = new JsonObject();
+        iKey.addProperty("item", MOD_ID +":"+ compat +"/_" +material + "_tool_handle");
+        keyList.add("T", iKey);
+        JsonObject result = new JsonObject();
+        result.addProperty("item", mod + ":" + material + "_axe");
+        json.add("result", result);
+        return json;
+    }
 }

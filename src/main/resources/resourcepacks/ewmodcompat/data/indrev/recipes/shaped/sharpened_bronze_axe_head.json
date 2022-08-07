@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "indrev"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:ircompat/dull_bronze_axe_head"
+  },
+  "addition": {
+    "item": "expert_weapons:ircompat/bronze_whetstone"
+  },
+  "result": {
+    "item": "expert_weapons:ircompat/sharpened_bronze_axe_head"
+  }
+}

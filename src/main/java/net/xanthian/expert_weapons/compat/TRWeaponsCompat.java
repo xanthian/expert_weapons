@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.SwordItem;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
@@ -12,7 +11,8 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 import net.xanthian.expert_weapons.Initialize_Mod;
 
-import net.xanthian.expert_weapons.materials.DullMaterials;
+import net.xanthian.expert_weapons.item.DullItems.DullSwordItem;
+import techreborn.init.TRToolTier;
 
 import java.util.List;
 
@@ -29,14 +29,8 @@ public class TRWeaponsCompat {
     public static final Item SHARPENED_BRONZE_BLADE = registerItem("trcompat/sharpened_bronze_blade",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
     public static final Item DULL_BRONZE_SWORD = registerItem("trcompat/dull_bronze_sword",
-            new SwordItem(DullMaterials.DULL_BRONZE,2,-2.4f, new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
-        @Override
-        public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-            tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-            tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-        }
-    });
-    public static final Item BRONZE_WHETSTONE = registerItem("trcompat/bronze_whetstone",
+            new DullSwordItem(TRToolTier.BRONZE,2,-2.4F));
+        public static final Item BRONZE_WHETSTONE = registerItem("trcompat/bronze_whetstone",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
             {	//Tooltip
                 @Override
@@ -57,14 +51,10 @@ public class TRWeaponsCompat {
     });
     public static final Item SHARPENED_PERIDOT_BLADE = registerItem("trcompat/sharpened_peridot_blade",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
-    public static final Item DULL_PERIDOT_SWORD = registerItem("trcompat/dull_peridot_sword", new SwordItem(DullMaterials.DULL_PERIDOT,2,-2.4f, new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
-        @Override
-        public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-            tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-            tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-        }
-    });
-    public static final Item peridot_whetstone = registerItem("trcompat/peridot_whetstone",
+    public static final Item DULL_PERIDOT_SWORD = registerItem("trcompat/dull_peridot_sword",
+            new DullSwordItem(TRToolTier.PERIDOT,2,-2.4f));
+
+    public static final Item PERIDOT_WHETSTONE = registerItem("trcompat/peridot_whetstone",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
             {	@Override
             public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -83,14 +73,10 @@ public class TRWeaponsCompat {
     });
     public static final Item SHARPENED_SAPPHIRE_BLADE = registerItem("trcompat/sharpened_sapphire_blade",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
-    public static final Item DULL_SAPPHIRE_SWORD = registerItem("trcompat/dull_sapphire_sword", new SwordItem(DullMaterials.DULL_SAPPHIRE,2,-2.4f, new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
-        @Override
-        public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-            tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-            tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-        }
-    });
-    public static final Item sapphire_whetstone = registerItem("trcompat/sapphire_whetstone",
+    public static final Item DULL_SAPPHIRE_SWORD = registerItem("trcompat/dull_sapphire_sword",
+            new DullSwordItem(TRToolTier.SAPPHIRE,2,-2.4f));
+
+    public static final Item SAPPHIRE_WHETSTONE = registerItem("trcompat/sapphire_whetstone",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
             {	@Override
             public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
@@ -108,14 +94,10 @@ public class TRWeaponsCompat {
     }
     });
     public static final Item SHARPENED_RUBY_BLADE = registerItem("trcompat/sharpened_ruby_blade",new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
-    public static final Item DULL_RUBY_SWORD = registerItem("trcompat/dull_ruby_sword", new SwordItem(DullMaterials.DULL_RUBY,2,-2.4f, new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))	{
-        @Override
-        public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-            tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-            tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-        }
-    });
-    public static final Item ruby_whetstone = registerItem("trcompat/ruby_whetstone",
+    public static final Item DULL_RUBY_SWORD = registerItem("trcompat/dull_ruby_sword",
+            new DullSwordItem(TRToolTier.RUBY,2,-2.4f));
+
+    public static final Item RUBY_WHETSTONE = registerItem("trcompat/ruby_whetstone",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS))
             {	@Override
             public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {

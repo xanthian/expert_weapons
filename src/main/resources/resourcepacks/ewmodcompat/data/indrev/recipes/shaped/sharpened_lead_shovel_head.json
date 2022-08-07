@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "indrev"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:ircompat/dull_lead_shovel_head"
+  },
+  "addition": {
+    "item": "expert_weapons:ircompat/lead_whetstone"
+  },
+  "result": {
+    "item": "expert_weapons:ircompat/sharpened_lead_shovel_head"
+  }
+}

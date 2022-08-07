@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "indrev"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "expert_weapons:ircompat/dull_steel_pickaxe"
+  },
+  "addition": {
+    "item": "expert_weapons:ircompat/steel_whetstone"
+  },
+  "result": {
+    "item": "indrev:steel_pickaxe"
+  }
+}
