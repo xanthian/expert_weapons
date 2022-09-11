@@ -53,8 +53,6 @@ public class Initialize_Mod implements ModInitializer {
         }
 
         if (FabricLoader.getInstance().isModLoaded("vsas")) {
-            VsasWeaponsCompat.registerModItems();
-            VsasToolsCompat.registerModItems();
             materialTypes.add(Pair.of("acacia", new String[]{"vsas"}));
             materialTypes.add(Pair.of("birch", new String[]{"vsas"}));
             materialTypes.add(Pair.of("crimson", new String[]{"vsas"}));
@@ -63,6 +61,8 @@ public class Initialize_Mod implements ModInitializer {
             materialTypes.add(Pair.of("oak", new String[]{"vsas"}));
             materialTypes.add(Pair.of("spruce", new String[]{"vsas"}));
             materialTypes.add(Pair.of("warped", new String[]{"vsas"}));
+            VsasWeaponsCompat.registerModItems();
+            VsasToolsCompat.registerModItems();
         }
 
         if (FabricLoader.getInstance().isModLoaded("advancednetherite")) {
