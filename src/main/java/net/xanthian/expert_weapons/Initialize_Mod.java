@@ -13,8 +13,6 @@ import net.minecraft.util.Identifier;
 import net.xanthian.expert_weapons.compat.*;
 import net.xanthian.expert_weapons.item.*;
 import org.apache.commons.lang3.tuple.Pair;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
@@ -22,7 +20,6 @@ import java.util.List;
 public class Initialize_Mod implements ModInitializer {
 
     public static final String MOD_ID = "expert_weapons";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     public static final ItemGroup EXPERT_WEAPONS = FabricItemGroupBuilder.build(new Identifier(Initialize_Mod.MOD_ID, "expert_weapons"),
             () -> new ItemStack(ExpertWeapons.SHARPENED_DIAMOND_BLADE));
@@ -53,6 +50,8 @@ public class Initialize_Mod implements ModInitializer {
         }
 
         if (FabricLoader.getInstance().isModLoaded("vsas")) {
+            VsasWeaponsCompat.registerModItems();
+            VsasToolsCompat.registerModItems();
             materialTypes.add(Pair.of("acacia", new String[]{"vsas"}));
             materialTypes.add(Pair.of("birch", new String[]{"vsas"}));
             materialTypes.add(Pair.of("crimson", new String[]{"vsas"}));
@@ -61,8 +60,6 @@ public class Initialize_Mod implements ModInitializer {
             materialTypes.add(Pair.of("oak", new String[]{"vsas"}));
             materialTypes.add(Pair.of("spruce", new String[]{"vsas"}));
             materialTypes.add(Pair.of("warped", new String[]{"vsas"}));
-            VsasWeaponsCompat.registerModItems();
-            VsasToolsCompat.registerModItems();
         }
 
         if (FabricLoader.getInstance().isModLoaded("advancednetherite")) {

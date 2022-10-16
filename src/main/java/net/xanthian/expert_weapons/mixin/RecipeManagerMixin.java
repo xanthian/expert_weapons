@@ -15,7 +15,6 @@ import net.xanthian.expert_weapons.util.Recipes;
 
 import net.xanthian.expert_weapons.util.UpgradeRecipes;
 import org.apache.commons.lang3.tuple.Pair;
-import org.apache.commons.lang3.tuple.Triple;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -92,7 +91,6 @@ public abstract class RecipeManagerMixin {
                 map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ materialType.getLeft() + "_netherite_pickaxe"), UpgradeRecipes.createDullNetheritePickaxeUpgradeRecipeJson(materialType.getLeft(), materialType.getRight()));
                 map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ materialType.getLeft() + "_netherite_shovel"), UpgradeRecipes.createDullNetheriteShovelUpgradeRecipeJson(materialType.getLeft(), materialType.getRight()));
                 map.put(new Identifier(Initialize_Mod.MOD_ID, "upgrade_dull_"+ materialType.getLeft() + "_netherite_sword"), UpgradeRecipes.createDullNetheriteSwordUpgradeRecipeJson(materialType.getLeft(), materialType.getRight()));
-                
             }
         }
     }

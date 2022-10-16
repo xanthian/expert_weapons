@@ -29,7 +29,7 @@ public class UpgradeRecipes {
         addition.addProperty("item", "expert_weapons:iron_whetstone");
         json.add("addition", addition);
         JsonObject result = new JsonObject();
-        result.addProperty("item",mods+ ":axes/" + material + "_iron_axe");
+        result.addProperty("item",MOD_ID+ ":axes/" + material + "_iron_axe");
         json.add("result", result);
         return json;
     }
