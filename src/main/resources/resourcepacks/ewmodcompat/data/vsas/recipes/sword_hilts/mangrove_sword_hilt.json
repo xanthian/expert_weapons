@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "vsas"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "ZXZ",
+    " Y "
+      ],
+  "key": {
+    "X": {
+      "item": "vsas:sticks/mangrove_stick"
+    },
+    "Z": {
+      "item": "minecraft:string"
+    },
+    "Y": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "result": {
+    "item": "expert_weapons:vsascompat/mangrove_sword_hilt"
+  }
+}

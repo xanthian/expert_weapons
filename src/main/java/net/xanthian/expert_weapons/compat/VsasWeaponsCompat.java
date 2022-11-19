@@ -21,6 +21,8 @@ public class VsasWeaponsCompat {
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
     public static final Item JUNGLE_SWORD_HILT = registerItem("vsascompat/jungle_sword_hilt",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
+    public static final Item MANGROVE_SWORD_HILT = registerItem("vsascompat/mangrove_sword_hilt",
+            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
     public static final Item OAK_SWORD_HILT = registerItem("vsascompat/oak_sword_hilt",
             new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_WEAPONS)));
     public static final Item SPRUCE_SWORD_HILT = registerItem("vsascompat/spruce_sword_hilt",
@@ -78,6 +80,16 @@ public class VsasWeaponsCompat {
     public static final Item DULL_JUNGLE_NETHERITE_SWORD = registerItem("vsascompat/dull_jungle_netherite_sword",
             new DullSwordItem(ToolMaterials.NETHERITE,3,-2.4f));
 
+    // Mangrove
+    public static final Item DULL_MANGROVE_IRON_SWORD = registerItem("vsascompat/dull_mangrove_iron_sword",
+            new DullSwordItem(ToolMaterials.IRON,3,-2.4f));
+    public static final Item DULL_MANGROVE_GOLDEN_SWORD = registerItem("vsascompat/dull_mangrove_golden_sword",
+            new DullSwordItem(ToolMaterials.GOLD,3,-2.4f));
+    public static final Item DULL_MANGROVE_DIAMOND_SWORD = registerItem("vsascompat/dull_mangrove_diamond_sword",
+            new DullSwordItem(ToolMaterials.DIAMOND,3,-2.4f));
+    public static final Item DULL_MANGROVE_NETHERITE_SWORD = registerItem("vsascompat/dull_mangrove_netherite_sword",
+            new DullSwordItem(ToolMaterials.NETHERITE,3,-2.4f));
+    
     // Oak
     public static final Item DULL_OAK_IRON_SWORD = registerItem("vsascompat/dull_oak_iron_sword",
             new DullSwordItem(ToolMaterials.IRON,3,-2.4f));

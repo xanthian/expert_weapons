@@ -212,6 +212,43 @@ public class VsasToolsCompat {
     public static final Item DULL_JUNGLE_NETHERITE_SHOVEL = registerItem("vsascompat/dull_jungle_netherite_shovel",
             new DullShovelItem(ToolMaterials.NETHERITE,1.5f,-3f));
 
+    // Mangrove
+    public static final Item DULL_MANGROVE_IRON_AXE = registerItem("vsascompat/dull_mangrove_iron_axe",
+            new DullAxeItem(ToolMaterials.IRON,6,-3.1f));
+    public static final Item DULL_MANGROVE_IRON_HOE = registerItem("vsascompat/dull_mangrove_iron_hoe",
+            new DullHoeItem(ToolMaterials.IRON,-2,-1f));
+    public static final Item DULL_MANGROVE_IRON_PICKAXE = registerItem("vsascompat/dull_mangrove_iron_pickaxe",
+            new DullPickaxeItem(ToolMaterials.IRON,1,-2.8f));
+    public static final Item DULL_MANGROVE_IRON_SHOVEL = registerItem("vsascompat/dull_mangrove_iron_shovel",
+            new DullShovelItem(ToolMaterials.IRON,1.5f,-3f));
+
+    public static final Item DULL_MANGROVE_GOLDEN_AXE = registerItem("vsascompat/dull_mangrove_golden_axe",
+            new DullAxeItem(ToolMaterials.GOLD,6,-3f));
+    public static final Item DULL_MANGROVE_GOLDEN_HOE = registerItem("vsascompat/dull_mangrove_golden_hoe",
+            new DullHoeItem(ToolMaterials.GOLD,0,-3f));
+    public static final Item DULL_MANGROVE_GOLDEN_PICKAXE = registerItem("vsascompat/dull_mangrove_golden_pickaxe",
+            new DullPickaxeItem(ToolMaterials.GOLD,1,-2.8f));
+    public static final Item DULL_MANGROVE_GOLDEN_SHOVEL = registerItem("vsascompat/dull_mangrove_golden_shovel",
+            new DullShovelItem(ToolMaterials.GOLD,1.5f,-3f));
+
+    public static final Item DULL_MANGROVE_DIAMOND_AXE = registerItem("vsascompat/dull_mangrove_diamond_axe",
+            new DullAxeItem(ToolMaterials.DIAMOND,5,-3f));
+    public static final Item DULL_MANGROVE_DIAMOND_HOE = registerItem("vsascompat/dull_mangrove_diamond_hoe",
+            new DullHoeItem(ToolMaterials.DIAMOND,-3,0f));
+    public static final Item DULL_MANGROVE_DIAMOND_PICKAXE = registerItem("vsascompat/dull_mangrove_diamond_pickaxe",
+            new DullPickaxeItem(ToolMaterials.DIAMOND,1,-2.8f));
+    public static final Item DULL_MANGROVE_DIAMOND_SHOVEL = registerItem("vsascompat/dull_mangrove_diamond_shovel",
+            new DullShovelItem(ToolMaterials.DIAMOND,1.5f,-3f));
+
+    public static final Item DULL_MANGROVE_NETHERITE_AXE = registerItem("vsascompat/dull_mangrove_netherite_axe",
+            new DullAxeItem(ToolMaterials.NETHERITE,5,-3f));
+    public static final Item DULL_MANGROVE_NETHERITE_HOE = registerItem("vsascompat/dull_mangrove_netherite_hoe",
+            new DullHoeItem(ToolMaterials.NETHERITE,-4,0f));
+    public static final Item DULL_MANGROVE_NETHERITE_PICKAXE = registerItem("vsascompat/dull_mangrove_netherite_pickaxe",
+            new DullPickaxeItem(ToolMaterials.NETHERITE,1,-2.8f));
+    public static final Item DULL_MANGROVE_NETHERITE_SHOVEL = registerItem("vsascompat/dull_mangrove_netherite_shovel",
+            new DullShovelItem(ToolMaterials.NETHERITE,1.5f,-3f));
+    
     // Oak
     public static final Item DULL_OAK_IRON_AXE = registerItem("vsascompat/dull_oak_iron_axe",
             new DullAxeItem(ToolMaterials.IRON,6,-3.1f));
