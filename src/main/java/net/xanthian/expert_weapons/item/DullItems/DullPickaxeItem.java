@@ -14,7 +14,7 @@ import java.util.List;
 
 public class DullPickaxeItem extends PickaxeItem {
     public DullPickaxeItem(ToolMaterial material, int attackDamage, float attackSpeed) {
-        super(material, attackDamage, attackSpeed, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS).maxDamage(material.getDurability()/2));
+        super(material, attackDamage, attackSpeed, new FabricItemSettings().maxDamage(material.getDurability()/2));
     }
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));

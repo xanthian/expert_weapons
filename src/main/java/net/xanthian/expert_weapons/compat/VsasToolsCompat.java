@@ -1,9 +1,11 @@
 package net.xanthian.expert_weapons.compat;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
+import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registry;
 import net.xanthian.expert_weapons.Initialize_Mod;
 import net.xanthian.expert_weapons.item.DullItems.*;
 
@@ -11,21 +13,21 @@ public class VsasToolsCompat {
 
     //Generic Parts
     public static final Item ACACIA_TOOL_HANDLE = registerItem("vsascompat/acacia_tool_handle",
-            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+            new Item(new FabricItemSettings()));
     public static final Item BIRCH_TOOL_HANDLE = registerItem("vsascompat/birch_tool_handle",
-            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+            new Item(new FabricItemSettings()));
     public static final Item CRIMSON_TOOL_HANDLE = registerItem("vsascompat/crimson_tool_handle",
-            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+            new Item(new FabricItemSettings()));
     public static final Item DARK_OAK_TOOL_HANDLE = registerItem("vsascompat/dark_oak_tool_handle",
-            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+            new Item(new FabricItemSettings()));
     public static final Item JUNGLE_TOOL_HANDLE = registerItem("vsascompat/jungle_tool_handle",
-            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+            new Item(new FabricItemSettings()));
     public static final Item OAK_TOOL_HANDLE = registerItem("vsascompat/oak_tool_handle",
-            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+            new Item(new FabricItemSettings()));
     public static final Item SPRUCE_TOOL_HANDLE = registerItem("vsascompat/spruce_tool_handle",
-            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+            new Item(new FabricItemSettings()));
     public static final Item WARPED_TOOL_HANDLE = registerItem("vsascompat/warped_tool_handle",
-            new Item(new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS)));
+            new Item(new FabricItemSettings()));
 
     // Acacia
     public static final Item DULL_ACACIA_IRON_AXE = registerItem("vsascompat/dull_acacia_iron_axe",
@@ -362,7 +364,168 @@ public class VsasToolsCompat {
 
     //Register Items
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(Initialize_Mod.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(Initialize_Mod.MOD_ID, name), item);
     }
-    public static void registerModItems() {}
+    private static void addItemsToItemGroup() {
+        addToItemGroup(ACACIA_TOOL_HANDLE);
+        addToItemGroup(BIRCH_TOOL_HANDLE);
+        addToItemGroup(CRIMSON_TOOL_HANDLE);
+        addToItemGroup(DARK_OAK_TOOL_HANDLE);
+        addToItemGroup(JUNGLE_TOOL_HANDLE);
+        addToItemGroup(OAK_TOOL_HANDLE);
+        addToItemGroup(SPRUCE_TOOL_HANDLE);
+        addToItemGroup(WARPED_TOOL_HANDLE);
+        addToItemGroup(DULL_ACACIA_IRON_AXE);
+        addToItemGroup(DULL_ACACIA_IRON_HOE);
+        addToItemGroup(DULL_ACACIA_IRON_PICKAXE);
+        addToItemGroup(DULL_ACACIA_IRON_SHOVEL);
+        addToItemGroup(DULL_ACACIA_GOLDEN_AXE);
+        addToItemGroup(DULL_ACACIA_GOLDEN_HOE);
+        addToItemGroup(DULL_ACACIA_GOLDEN_PICKAXE);
+        addToItemGroup(DULL_ACACIA_GOLDEN_SHOVEL);
+        addToItemGroup(DULL_ACACIA_DIAMOND_AXE);
+        addToItemGroup(DULL_ACACIA_DIAMOND_HOE);
+        addToItemGroup(DULL_ACACIA_DIAMOND_PICKAXE);
+        addToItemGroup(DULL_ACACIA_DIAMOND_SHOVEL);
+        addToItemGroup(DULL_ACACIA_NETHERITE_AXE);
+        addToItemGroup(DULL_ACACIA_NETHERITE_HOE);
+        addToItemGroup(DULL_ACACIA_NETHERITE_PICKAXE);
+        addToItemGroup(DULL_ACACIA_NETHERITE_SHOVEL);
+        addToItemGroup(DULL_BIRCH_IRON_AXE);
+        addToItemGroup(DULL_BIRCH_IRON_HOE);
+        addToItemGroup(DULL_BIRCH_IRON_PICKAXE);
+        addToItemGroup(DULL_BIRCH_IRON_SHOVEL);
+        addToItemGroup(DULL_BIRCH_GOLDEN_AXE);
+        addToItemGroup(DULL_BIRCH_GOLDEN_HOE);
+        addToItemGroup(DULL_BIRCH_GOLDEN_PICKAXE);
+        addToItemGroup(DULL_BIRCH_GOLDEN_SHOVEL);
+        addToItemGroup(DULL_BIRCH_DIAMOND_AXE);
+        addToItemGroup(DULL_BIRCH_DIAMOND_HOE);
+        addToItemGroup(DULL_BIRCH_DIAMOND_PICKAXE);
+        addToItemGroup(DULL_BIRCH_DIAMOND_SHOVEL);
+        addToItemGroup(DULL_BIRCH_NETHERITE_AXE);
+        addToItemGroup(DULL_BIRCH_NETHERITE_HOE);
+        addToItemGroup(DULL_BIRCH_NETHERITE_PICKAXE);
+        addToItemGroup(DULL_BIRCH_NETHERITE_SHOVEL);
+        addToItemGroup(DULL_CRIMSON_IRON_AXE);
+        addToItemGroup(DULL_CRIMSON_IRON_HOE);
+        addToItemGroup(DULL_CRIMSON_IRON_PICKAXE);
+        addToItemGroup(DULL_CRIMSON_IRON_SHOVEL);
+        addToItemGroup(DULL_CRIMSON_GOLDEN_AXE);
+        addToItemGroup(DULL_CRIMSON_GOLDEN_HOE);
+        addToItemGroup(DULL_CRIMSON_GOLDEN_PICKAXE);
+        addToItemGroup(DULL_CRIMSON_GOLDEN_SHOVEL);
+        addToItemGroup(DULL_CRIMSON_DIAMOND_AXE);
+        addToItemGroup(DULL_CRIMSON_DIAMOND_HOE);
+        addToItemGroup(DULL_CRIMSON_DIAMOND_PICKAXE);
+        addToItemGroup(DULL_CRIMSON_DIAMOND_SHOVEL);
+        addToItemGroup(DULL_CRIMSON_NETHERITE_AXE);
+        addToItemGroup(DULL_CRIMSON_NETHERITE_HOE);
+        addToItemGroup(DULL_CRIMSON_NETHERITE_PICKAXE);
+        addToItemGroup(DULL_CRIMSON_NETHERITE_SHOVEL);
+        addToItemGroup(DULL_DARK_OAK_IRON_AXE);
+        addToItemGroup(DULL_DARK_OAK_IRON_HOE);
+        addToItemGroup(DULL_DARK_OAK_IRON_PICKAXE);
+        addToItemGroup(DULL_DARK_OAK_IRON_SHOVEL);
+        addToItemGroup(DULL_DARK_OAK_GOLDEN_AXE);
+        addToItemGroup(DULL_DARK_OAK_GOLDEN_HOE);
+        addToItemGroup(DULL_DARK_OAK_GOLDEN_PICKAXE);
+        addToItemGroup(DULL_DARK_OAK_GOLDEN_SHOVEL);
+        addToItemGroup(DULL_DARK_OAK_DIAMOND_AXE);
+        addToItemGroup(DULL_DARK_OAK_DIAMOND_HOE);
+        addToItemGroup(DULL_DARK_OAK_DIAMOND_PICKAXE);
+        addToItemGroup(DULL_DARK_OAK_DIAMOND_SHOVEL);
+        addToItemGroup(DULL_DARK_OAK_NETHERITE_AXE);
+        addToItemGroup(DULL_DARK_OAK_NETHERITE_HOE);
+        addToItemGroup(DULL_DARK_OAK_NETHERITE_PICKAXE);
+        addToItemGroup(DULL_DARK_OAK_NETHERITE_SHOVEL);
+        addToItemGroup(DULL_JUNGLE_IRON_AXE);
+        addToItemGroup(DULL_JUNGLE_IRON_HOE);
+        addToItemGroup(DULL_JUNGLE_IRON_PICKAXE);
+        addToItemGroup(DULL_JUNGLE_IRON_SHOVEL);
+        addToItemGroup(DULL_JUNGLE_GOLDEN_AXE);
+        addToItemGroup(DULL_JUNGLE_GOLDEN_HOE);
+        addToItemGroup(DULL_JUNGLE_GOLDEN_PICKAXE);
+        addToItemGroup(DULL_JUNGLE_GOLDEN_SHOVEL);
+        addToItemGroup(DULL_JUNGLE_DIAMOND_AXE);
+        addToItemGroup(DULL_JUNGLE_DIAMOND_HOE);
+        addToItemGroup(DULL_JUNGLE_DIAMOND_PICKAXE);
+        addToItemGroup(DULL_JUNGLE_DIAMOND_SHOVEL);
+        addToItemGroup(DULL_JUNGLE_NETHERITE_AXE);
+        addToItemGroup(DULL_JUNGLE_NETHERITE_HOE);
+        addToItemGroup(DULL_JUNGLE_NETHERITE_PICKAXE);
+        addToItemGroup(DULL_JUNGLE_NETHERITE_SHOVEL);
+        addToItemGroup(DULL_MANGROVE_IRON_AXE);
+        addToItemGroup(DULL_MANGROVE_IRON_HOE);
+        addToItemGroup(DULL_MANGROVE_IRON_PICKAXE);
+        addToItemGroup(DULL_MANGROVE_IRON_SHOVEL);
+        addToItemGroup(DULL_MANGROVE_GOLDEN_AXE);
+        addToItemGroup(DULL_MANGROVE_GOLDEN_HOE);
+        addToItemGroup(DULL_MANGROVE_GOLDEN_PICKAXE);
+        addToItemGroup(DULL_MANGROVE_GOLDEN_SHOVEL);
+        addToItemGroup(DULL_MANGROVE_DIAMOND_AXE);
+        addToItemGroup(DULL_MANGROVE_DIAMOND_HOE);
+        addToItemGroup(DULL_MANGROVE_DIAMOND_PICKAXE);
+        addToItemGroup(DULL_MANGROVE_DIAMOND_SHOVEL);
+        addToItemGroup(DULL_MANGROVE_NETHERITE_AXE);
+        addToItemGroup(DULL_MANGROVE_NETHERITE_HOE);
+        addToItemGroup(DULL_MANGROVE_NETHERITE_PICKAXE);
+        addToItemGroup(DULL_MANGROVE_NETHERITE_SHOVEL);
+        addToItemGroup(DULL_OAK_IRON_AXE);
+        addToItemGroup(DULL_OAK_IRON_HOE);
+        addToItemGroup(DULL_OAK_IRON_PICKAXE);
+        addToItemGroup(DULL_OAK_IRON_SHOVEL);
+        addToItemGroup(DULL_OAK_GOLDEN_AXE);
+        addToItemGroup(DULL_OAK_GOLDEN_HOE);
+        addToItemGroup(DULL_OAK_GOLDEN_PICKAXE);
+        addToItemGroup(DULL_OAK_GOLDEN_SHOVEL);
+        addToItemGroup(DULL_OAK_DIAMOND_AXE);
+        addToItemGroup(DULL_OAK_DIAMOND_HOE);
+        addToItemGroup(DULL_OAK_DIAMOND_PICKAXE);
+        addToItemGroup(DULL_OAK_DIAMOND_SHOVEL);
+        addToItemGroup(DULL_OAK_NETHERITE_AXE);
+        addToItemGroup(DULL_OAK_NETHERITE_HOE);
+        addToItemGroup(DULL_OAK_NETHERITE_PICKAXE);
+        addToItemGroup(DULL_OAK_NETHERITE_SHOVEL);
+        addToItemGroup(DULL_SPRUCE_IRON_AXE);
+        addToItemGroup(DULL_SPRUCE_IRON_HOE);
+        addToItemGroup(DULL_SPRUCE_IRON_PICKAXE);
+        addToItemGroup(DULL_SPRUCE_IRON_SHOVEL);
+        addToItemGroup(DULL_SPRUCE_GOLDEN_AXE);
+        addToItemGroup(DULL_SPRUCE_GOLDEN_HOE);
+        addToItemGroup(DULL_SPRUCE_GOLDEN_PICKAXE);
+        addToItemGroup(DULL_SPRUCE_GOLDEN_SHOVEL);
+        addToItemGroup(DULL_SPRUCE_DIAMOND_AXE);
+        addToItemGroup(DULL_SPRUCE_DIAMOND_HOE);
+        addToItemGroup(DULL_SPRUCE_DIAMOND_PICKAXE);
+        addToItemGroup(DULL_SPRUCE_DIAMOND_SHOVEL);
+        addToItemGroup(DULL_SPRUCE_NETHERITE_AXE);
+        addToItemGroup(DULL_SPRUCE_NETHERITE_HOE);
+        addToItemGroup(DULL_SPRUCE_NETHERITE_PICKAXE);
+        addToItemGroup(DULL_SPRUCE_NETHERITE_SHOVEL);
+        addToItemGroup(DULL_WARPED_IRON_AXE);
+        addToItemGroup(DULL_WARPED_IRON_HOE);
+        addToItemGroup(DULL_WARPED_IRON_PICKAXE);
+        addToItemGroup(DULL_WARPED_IRON_SHOVEL);
+        addToItemGroup(DULL_WARPED_GOLDEN_AXE);
+        addToItemGroup(DULL_WARPED_GOLDEN_HOE);
+        addToItemGroup(DULL_WARPED_GOLDEN_PICKAXE);
+        addToItemGroup(DULL_WARPED_GOLDEN_SHOVEL);
+        addToItemGroup(DULL_WARPED_DIAMOND_AXE);
+        addToItemGroup(DULL_WARPED_DIAMOND_HOE);
+        addToItemGroup(DULL_WARPED_DIAMOND_PICKAXE);
+        addToItemGroup(DULL_WARPED_DIAMOND_SHOVEL);
+        addToItemGroup(DULL_WARPED_NETHERITE_AXE);
+        addToItemGroup(DULL_WARPED_NETHERITE_HOE);
+        addToItemGroup(DULL_WARPED_NETHERITE_PICKAXE);
+        addToItemGroup(DULL_WARPED_NETHERITE_SHOVEL);
+    }
+
+    private static void addToItemGroup(Item item) {
+        ItemGroupEvents.modifyEntriesEvent(Initialize_Mod.EXPERT_TOOLS).register(entries -> entries.add(item));
+    }
+
+    public static void registerModItems() {
+        addItemsToItemGroup();
+    }
 }

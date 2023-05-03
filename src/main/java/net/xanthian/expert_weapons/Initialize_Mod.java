@@ -3,7 +3,8 @@ package net.xanthian.expert_weapons;
 import com.google.common.collect.Lists;
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
@@ -21,10 +22,10 @@ public class Initialize_Mod implements ModInitializer {
 
     public static final String MOD_ID = "expert_weapons";
 
-    public static final ItemGroup EXPERT_WEAPONS = FabricItemGroupBuilder.build(new Identifier(Initialize_Mod.MOD_ID, "expert_weapons"),
-            () -> new ItemStack(ExpertWeapons.SHARPENED_DIAMOND_BLADE));
-    public static final ItemGroup EXPERT_TOOLS = FabricItemGroupBuilder.build(new Identifier(Initialize_Mod.MOD_ID, "expert_tools"),
-            () -> new ItemStack(ExpertTools.SHARPENED_DIAMOND_AXE_HEAD));
+    public static final ItemGroup EXPERT_WEAPONS = FabricItemGroup.builder(new Identifier(Initialize_Mod.MOD_ID, "expert_weapons")
+    ).build();
+    public static final ItemGroup EXPERT_TOOLS = FabricItemGroup.builder(new Identifier(Initialize_Mod.MOD_ID, "expert_tools")
+    ).build();
 
     public static List<Pair<String, String[]>> materialTypes = Lists.newArrayList();
 
