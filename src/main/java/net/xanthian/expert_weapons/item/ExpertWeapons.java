@@ -23,9 +23,14 @@ public class ExpertWeapons {
 	//Generic Parts
 	public static final Item SWORD_HILT = registerItem("sword_hilt", new Item(new FabricItemSettings()));
 
+	//Wood Parts
+//	public static final Item WOOD_GUARD = registerItem("wood_guard", new Item(new FabricItemSettings()));
+//	public static final Item WOOD_BLADE = registerItem("wood_blade", new Item(new FabricItemSettings()));
+//	public static final Item WOOD_SWORD = registerItem("wood_sword",
+//			new DullSwordItem(ToolMaterials.WOOD,2,-3.0f));
+
 	//Iron Parts
 	public static final Item IRON_GUARD = registerItem("iron_guard", new Item(new FabricItemSettings()));
-
 
 	public static final Item DULL_IRON_BLADE = registerItem("dull_iron_blade",
 			new Item(new FabricItemSettings())			{
@@ -135,6 +140,9 @@ public class ExpertWeapons {
 
 	private static void addItemsToItemGroup() {
 		addToItemGroup(SWORD_HILT);
+//		addToItemGroup(WOOD_GUARD);
+//		addToItemGroup(WOOD_BLADE);
+//		addToItemGroup(WOOD_SWORD);
 		addToItemGroup(IRON_GUARD);
 		addToItemGroup(DULL_IRON_BLADE);
 		addToItemGroup(SHARPENED_IRON_BLADE);

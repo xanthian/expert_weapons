@@ -5,7 +5,8 @@
   "name": "Expert Weapons and Tools",
   "description": "Vanilla Weapons and Tools, but harder to obtain!",
   "authors": [
-    "Xanthian"
+    "Xanthian",
+    "Carve"
   ],
   "contact": {
     "sources": "https://github.com/xanthian/expert_weapons/"
@@ -20,7 +21,7 @@
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": ">=1.19.4",
     "java": ">=17"
   }
 }
