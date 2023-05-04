@@ -1,10 +1,9 @@
 package net.xanthian.expert_weapons.item.DullItems;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.item.AxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.*;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
@@ -15,8 +14,7 @@ import java.util.List;
 public class DullAxeItem extends AxeItem{
 
     public DullAxeItem(ToolMaterial material, float attackSpeed, float attackDamage) {
-        super(material, attackSpeed, attackDamage, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS).maxDamage(material.getDurability()/2));
-
+        super(material, attackSpeed, attackDamage, new FabricItemSettings().maxDamage(material.getDurability()/2));
     }
 
 

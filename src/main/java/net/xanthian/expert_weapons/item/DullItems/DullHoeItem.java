@@ -15,7 +15,7 @@ import java.util.List;
 public class DullHoeItem extends HoeItem {
 
     public DullHoeItem(ToolMaterial material, int attackDamage, float attackSpeed) {
-        super(material, attackDamage, attackSpeed, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS).maxDamage(material.getDurability() / 2));
+        super(material, attackDamage, attackSpeed, new FabricItemSettings().maxDamage(material.getDurability() / 2));
     }
 
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {

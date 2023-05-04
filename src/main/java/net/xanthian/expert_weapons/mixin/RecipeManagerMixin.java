@@ -29,6 +29,11 @@ public abstract class RecipeManagerMixin {
     public void interceptApply(Map<Identifier, JsonElement> map, ResourceManager resourceManager, Profiler profiler, CallbackInfo info) {
         for (Pair<String, String[]> materialType : Initialize_Mod.materialTypes) {
             if (FabricLoader.getInstance().isModLoaded("vsas")) {
+                map.put(new Identifier(Initialize_Mod.MOD_ID, materialType.getLeft() + "_wood_axe"), Recipes.createWoodAxeRecipeJson(materialType.getLeft(), materialType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, materialType.getLeft() + "_wood_hoe"), Recipes.createWoodHoeRecipeJson(materialType.getLeft(), materialType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, materialType.getLeft() + "_wood_pickaxe"), Recipes.createWoodPickaxeRecipeJson(materialType.getLeft(), materialType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, materialType.getLeft() + "_wood_shovel"), Recipes.createWoodShovelRecipeJson(materialType.getLeft(), materialType.getRight()));
+                map.put(new Identifier(Initialize_Mod.MOD_ID, materialType.getLeft() + "_wood_sword"), Recipes.createWoodSwordRecipeJson(materialType.getLeft(), materialType.getRight()));
                 map.put(new Identifier(Initialize_Mod.MOD_ID, materialType.getLeft() + "_iron_axe"), Recipes.createIronAxeRecipeJson(materialType.getLeft(), materialType.getRight()));
                 map.put(new Identifier(Initialize_Mod.MOD_ID, materialType.getLeft() + "_iron_hoe"), Recipes.createIronHoeRecipeJson(materialType.getLeft(), materialType.getRight()));
                 map.put(new Identifier(Initialize_Mod.MOD_ID, materialType.getLeft() + "_iron_pickaxe"), Recipes.createIronPickaxeRecipeJson(materialType.getLeft(), materialType.getRight()));
