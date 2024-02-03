@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "expert_weapons:dull_iron_blade", "required": false},
+    {"id": "expert_weapons:dull_golden_blade", "required": false},
+    {"id": "expert_weapons:dull_diamond_blade", "required": false},
+    {"id": "expert_weapons:dull_netherite_blade", "required": false}
+  ]
+}

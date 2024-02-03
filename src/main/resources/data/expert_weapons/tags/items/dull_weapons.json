@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "expert_weapons:dull_iron_sword",
+      "required": false
+    },
+    {
+      "id": "expert_weapons:dull_golden_sword",
+      "required": false
+    },
+    {
+      "id": "expert_weapons:dull_diamond_sword",
+      "required": false
+    },
+    {
+      "id": "expert_weapons:dull_netherite_sword",
+      "required": false
+    }
+  ]
+}

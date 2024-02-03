@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:item_tags_populated",
+      "values": [
+        "expert_weapons:vanilla_disabled"
+      ]
+    }
+  ],
   "type": "minecraft:smithing",
   "base": {
     "item": "expert_weapons:dull_golden_axe"

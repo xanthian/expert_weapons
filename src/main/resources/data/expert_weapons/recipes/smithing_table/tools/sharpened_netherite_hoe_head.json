@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:item_tags_populated",
+      "values": [
+        "expert_weapons:dull_tool_parts"
+      ]
+    }
+  ],
   "type": "minecraft:smithing",
   "base": {
     "item": "expert_weapons:dull_netherite_hoe_head"

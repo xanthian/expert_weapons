@@ -1,35 +1,34 @@
 package net.xanthian.expert_weapons.item.DullItems;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.client.item.TooltipContext;
-import net.minecraft.item.AxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ToolMaterial;
-import net.minecraft.text.Text;
-import net.minecraft.util.Formatting;
-import net.minecraft.world.World;
-import net.xanthian.expert_weapons.Initialize_Mod;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.*;
+import net.minecraft.world.level.Level;
+import net.xanthian.expert_weapons.util.ModCreativeModeTab;
+import org.jetbrains.annotations.NotNull;
 
+import javax.annotation.Nullable;
 import java.util.List;
 
-public class DullAxeItem extends AxeItem{
+public class DullAxeItem extends AxeItem {
 
-    public DullAxeItem(ToolMaterial material, float attackSpeed, float attackDamage) {
-        super(material, attackSpeed, attackDamage, new FabricItemSettings().group(Initialize_Mod.EXPERT_TOOLS).maxDamage(material.getDurability()/2));
-
+    public DullAxeItem(Tier pTier, float pAttackDamageModifier, float pAttackSpeedModifier) {
+        super(pTier, pAttackDamageModifier, pAttackSpeedModifier, new Item.Properties().defaultDurability(pTier.getUses() / 2).tab(ModCreativeModeTab.EW_TAB));
     }
 
-
-    public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant").formatted(Formatting.ITALIC, Formatting.RED));
-        tooltip.add(Text.translatable("tooltip.expert_weapons.no_enchant2").formatted(Formatting.ITALIC, Formatting.GRAY));
-    }
     @Override
-    public boolean isEnchantable(ItemStack stack) {
-        return false;
+    public void appendHoverText(@NotNull ItemStack pStack, @Nullable Level pLevel, @NotNull List<Component> pTooltipComponents, @NotNull TooltipFlag pIsAdvanced) {
+        pTooltipComponents.add(Component.translatable("tooltip.expert_weapons.no_enchant").withStyle(ChatFormatting.ITALIC, ChatFormatting.RED));
+        pTooltipComponents.add(Component.translatable("tooltip.expert_weapons.no_enchant2").withStyle(ChatFormatting.ITALIC, ChatFormatting.GRAY));
     }
+
     @Override
-    public int getEnchantability() {
+    public int getEnchantmentValue() {
         return 0;
+    }
+
+    @Override
+    public boolean isEnchantable(@NotNull ItemStack stack) {
+        return false;
     }
 }
